@@ -27,8 +27,17 @@ export default function AnimatedContent() {
 		gsap.to(".stanza", {
 			delay: 0.5,
 			opacity: 1,
-			duration: 2,
+			duration: 1.5,
 			ease: "power1.inOut",
+		});
+		gsap.to("body", {
+			duration: 8,
+			onStart: () => {
+				document.body.style.overflowY = 'hidden';
+			},
+			onComplete: () => {
+				document.body.style.overflowY = '';
+			}
 		});
 	}, []);
 

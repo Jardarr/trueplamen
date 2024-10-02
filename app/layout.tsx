@@ -26,9 +26,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
-			>
+			<body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}>
 				<div className="px-4 md:px-24">
 					<Navbar />
 				</div>
