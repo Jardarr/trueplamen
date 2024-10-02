@@ -1,101 +1,61 @@
-import Image from "next/image";
+import HeroLogo from "./components/heroLogo";
+import AnimatedContent from "./components/animate";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+	return (
+		<>
+			<div className="h-custom-height flex justify-center items-center bg-hero-bg bg-cover bg-center bg-attachment-fixed bg-no-repeat">
+				<AnimatedContent />
+				<div className="wall flex flex-col items-center justify-center opacity-100 absolute w-full h-full top-0 bg-black text-white text-xs font-thin">
+					<p className="stanza opacity-0 px-5">
+						<i>
+							Вы пришли в мир, чтоб гореть в солнце Града…
+							<br />А чем лютей зло, тем ярче пламень чистых
+							сердец!
+						</i>
+					</p>
+					<p className="stanza opacity-0 max-w-[340px] w-full text-right px-5 md:px-0">
+						&quot;Пламень&quot; Пимен Карпов
+					</p>
+				</div>
+				<div className="heroCard opacity-0">
+					<HeroLogo />
+				</div>
+			</div>
+			<div className="bg-black text-white text-xs font-thin">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Iure nostrum sunt sint ab, modi est facilis! Tempora tempore
+					eaque aut quae nemo repellendus ea alias velit atque totam,
+					nostrum in? Magnam, vel. Excepturi illo dolor numquam alias
+					rem officia aut inventore enim culpa! Minus ea, blanditiis
+					illum reiciendis earum libero? Fuga assumenda illum voluptas
+					voluptatem reprehenderit numquam consequatur neque eaque.
+					Animi alias, perspiciatis vero sequi voluptates atque at ab
+					aliquid ad, facilis nemo, repellendus velit. Quod maiores,
+					fuga nobis error eos deleniti libero, ea dignissimos
+					aliquid, natus unde et earum! Voluptatibus, facere sequi.
+					Sed tempore, numquam enim suscipit soluta itaque nisi fugiat
+					ut, officiis deleniti aliquid praesentium, similique a sit
+					quas voluptate eius veritatis? Totam iusto consectetur error
+					eos rerum. Voluptatibus itaque sunt cupiditate deserunt
+					rerum autem impedit sit laboriosam aut vitae ad asperiores
+					nam dicta illo, sint illum omnis. Omnis facere ipsum,
+					eveniet aperiam adipisci dicta voluptatibus dolores
+					expedita. Nisi quam doloribus vitae eos perspiciatis quo
+					maiores, praesentium inventore corporis quos itaque animi
+					ipsum a ipsam sit error possimus rerum. Eveniet unde aut
+					dignissimos vero aperiam nulla dolore dolorum. Qui, natus
+					necessitatibus debitis ipsum fugit provident. Culpa nihil id
+					officia illum rerum facere in cumque dignissimos quidem
+					ullam consequatur aspernatur voluptatibus aliquam, ipsa
+					laboriosam harum asperiores vero. Assumenda, quam! Laborum
+					aliquid eaque ducimus est at eius necessitatibus. Reiciendis
+					sit, mollitia, necessitatibus aperiam, distinctio
+					consectetur nam ex nihil voluptas iure aut laboriosam at
+					porro? Delectus tempore quos fugit molestiae quis.
+				</p>
+			</div>
+		</>
+	);
 }
