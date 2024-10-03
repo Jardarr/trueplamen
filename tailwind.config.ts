@@ -55,6 +55,7 @@ const config = {
 			},
 			backgroundImage: {
 				"hero-bg": "url(/heroes-bw.jpg)",
+				"album-bg": "url(/in_the_woods....jpg)",
 			},
 			borderRadius: {
 				lg: "var(--radius)",

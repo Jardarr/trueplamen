@@ -1,11 +1,13 @@
 import React from 'react';
 import Hero from './components/hero';
 import { Separator } from '@/components/ui/separator';
+import Link from 'next/link';
 export default function Home() {
 	return (
 		<>
 			<Hero />
 			<Separator className="mt-40 max-w-7xl mx-auto" />
+			<Link href="/samples" className="text-white text-xs font-thin">Samples</Link>
 			<div className="text-white text-xs font-thin px-[96px] mt-40">
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
