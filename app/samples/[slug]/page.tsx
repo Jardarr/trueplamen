@@ -23,7 +23,7 @@ const Album = ({ params }: AlbumProps) => {
 	}
 
 	return (
-		<div className="bg-img relative w-full flex items-center justify-center mt-10 h-custom-height">
+		<div className="bg-img relative w-full flex flex-col sm:flex-row items-center justify-center h-custom-height">
 			<div className="max-w-[900px] flex flex-col items-center justify-center">
 				<Image
 					src={album.imageBIG}
@@ -34,6 +34,7 @@ const Album = ({ params }: AlbumProps) => {
 				/>
 				<h1 className="text-gray-300 text-2xl font-bold">{album.title}</h1>
 			</div>
+			<div className="text-gray-300">djydtyjkfyukguilyilgjfyjkfyjks</div>
 		</div>
 	);
 };
