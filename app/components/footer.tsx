@@ -11,51 +11,9 @@ export default function Footer() {
 					<Link
 						translate="no"
 						className="px-2 hover:text-gray-300"
-						href="/poems/about-gods"
+						href="/samples"
 					>
-						Goðakvæði
-					</Link>
-					<Link
-						translate="no"
-						className="px-2 hover:text-gray-300"
-						href="/poems/about-heroes"
-					>
-						Hetjukvæði
-					</Link>
-					<Link
-						translate="no"
-						className="px-2 hover:text-gray-300"
-						href="/poems/edda-songs"
-					>
-						Eddukvæði
-					</Link>
-					<Link
-						translate="no"
-						className="px-2 hover:text-gray-300"
-						href="/poems/edda-app"
-					>
-						Viðbætir
-					</Link>
-					<Link
-						translate="no"
-						className="px-2 hover:text-gray-300"
-						href="/poems/poetry"
-					>
-						Ljóð
-					</Link>
-					<Link
-						translate="no"
-						className="px-2 hover:text-gray-300"
-						href="/poems/stora-edda"
-					>
-						Stóra Edda
-					</Link>
-					<Link
-						translate="no"
-						className="px-2 hover:text-gray-300"
-						href="/poems/on-dictionary"
-					>
-						Orðabók
+						Samples
 					</Link>
 				</div>
 				<div className="w-full flex justify-center lg:justify-start px-2">
