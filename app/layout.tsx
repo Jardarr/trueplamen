@@ -15,6 +15,11 @@ const geistMono = localFont({
 	variable: "--font-geist-mono",
 	weight: "100 900",
 });
+const gtaWasted = localFont({
+	src: "./fonts/gta-russian.woff",
+	variable: "--font-gta",
+	weight: "100 900",
+});
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -28,7 +33,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}>
+			<body className={`${geistSans.variable} ${geistMono.variable} ${gtaWasted.variable} antialiased bg-black`}>
 				<div className="px-4 md:px-24">
 					<Navbar />
 				</div>
