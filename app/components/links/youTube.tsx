@@ -25,7 +25,7 @@ export default function YouTube() {
 
 				<g id="SVGRepo_iconCarrier">
 					{" "}
-					<title>youtube [#168]</title>{" "}
+					<title>youtube</title>{" "}
 					<desc>Created with Sketch.</desc> <defs> </defs>{" "}
 					<g
 						id="Page-1"

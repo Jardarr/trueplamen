@@ -23,6 +23,7 @@ export default function MailLink() {
 
 				<g id="SVGRepo_iconCarrier">
 					{" "}
+					<title>mail</title>{" "}
 					<rect width="24" height="24" fill="none" />{" "}
 					<path
 						fill-rule="evenodd"

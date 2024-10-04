@@ -26,6 +26,7 @@ export default function BandCamp() {
 
 				<g id="SVGRepo_iconCarrier">
 					{" "}
+					<title>bandcamp</title>{" "}
 					<g>
 						{" "}
 						<g>
