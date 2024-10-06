@@ -30,7 +30,7 @@ const Album = ({ params }: AlbumProps) => {
 	return (
 		<div className="bg-img relative w-full flex flex-col items-center gap-8 pt-10 sm:justify-center min-h-screen sm:h-fit pb-20">
 			<div className="max-w-[900px] w-full flex flex-col sm:flex-row">
-				<div className="flex flex-col items-center justify-center">
+				<div className="flex flex-col items-center justify-center bg-slate-800/45 p-3 rounded-md">
 					<Image
 						src={album.imageBIG}
 						alt={album.alt}
@@ -41,10 +41,11 @@ const Album = ({ params }: AlbumProps) => {
 					<h1 className="text-gray-300 text-base">{album.titleRU}</h1>
 					<h2 className="text-gray-400 text-sm text-center font-thin">{album.titleEN}</h2>
 				</div>
-				<div className="flex items-center flex-col text-gray-300 px-12 mt-3 sm:mt-0">
+				<div className="flex flex-col text-gray-300 px-12 mt-3 sm:mt-0">
 					<AudioPlayer audio={audio} audioTitle={audioTitle} />
 					<div className="mt-4">{album.trackRU}</div>
 					<div className="mt-2">{album.trackEN}</div>
+				<h3 className="mt-4"><a target="_blank" href={album.bcLink}>Слушать</a> на Bandcamp</h3>
 				</div>
 			</div>
 			<Separator className="my-12 sm:max-w-7xl max-w-72 mx-auto" />

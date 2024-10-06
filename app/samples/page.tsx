@@ -4,18 +4,20 @@ import coverList from "../utils/albumList";
 
 export default function Samples() {
 	return (
-		<div className="bg-img relative flex justify-center h-custom-height pt-10 gap-3">
-			<div className="cover-box max-w-[1200px] flex items-center justify-center flex-wrap gap-3">
-				{coverList.map((cover) => (
-					<div key={cover.alt} className="cover-link">
-						<Link href={cover.link}>
+		<div className="bg-img relative flex justify-center pt-10 sm:py-7 gap-3 h-fit">
+			<div className="cover-box max-w-[1200px] flex justify-center flex-wrap gap-3">
+				{coverList.map((album) => (
+					<div key={album.alt} className="cover-link h-fit bg-slate-800/45 p-3 rounded-md">
+						<Link href={album.link}>
 							<Image
 								className="rounded-md"
-								src={cover.image}
-								alt={cover.alt}
+								src={album.image}
+								alt={album.alt}
 								width={300}
 								height={300}
 							/>
+							<h1 className="text-gray-300 text-center text-base">{album.titleRU}</h1>
+							<h2 className="text-gray-400 text-sm text-center font-thin">{album.titleEN}</h2>
 						</Link>
 					</div>
 				))}

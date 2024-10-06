@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function BandCamp() {
 	return (
 		<Link
-			href="https://https://plamen.bandcamp.com/"
+			href="https://plamen.bandcamp.com/"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
