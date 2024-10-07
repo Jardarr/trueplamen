@@ -73,9 +73,9 @@ const Album = ({ params }: AlbumProps) => {
                         <AccordionTrigger className="w-full px-4 sm:px-0">
                             {album.texts ? album.texts[0].songTitle : null}
                         </AccordionTrigger>
-                        <AccordionContent>
+						<AccordionContent>
                             {album.texts ? (
-                                album.texts.map((text, index) => (
+								album.texts.map((text, index) => (
                                     <div
                                         key={index}
                                         className="max-w-[900px] w-full flex flex-col sm:flex-row text-gray-300 text-sm font-thin gap-6 px-4"

@@ -648,8 +648,8 @@ const albumList = [
 						</div>
 					</>
 				),
-			}
-		]
+			},
+		],
 	},
 ];
 export default albumList;
