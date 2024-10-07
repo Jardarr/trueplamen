@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function MailLink() {
 	return (
 		<Link
-			href="https://https://plamen.bandcamp.com/"
+			href="mailto:trueplamen@gmail.com"
 			target="_blank"
 			rel="noopener noreferrer"
 		>

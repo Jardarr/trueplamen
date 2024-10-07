@@ -9,7 +9,7 @@ const albumList = [
 		titleEN: (<span>(Plamen - For the Sun)<br />released May 11, 2013</span>),
 		audio: "/music/plamen-catharsis.mp3",
 		audioTitle: "Пламень - Катарсис",
-		bcLink: "https://plamen.bandcamp.com/album/-",
+		bcLink: "https://plamen.bandcamp.com/album/for-the-sun",
 		trackRU: (
 			<ul className="text-sm font-thin">
 				<li>
@@ -128,7 +128,7 @@ const albumList = [
 		titleEN: (<span>(Plamen - To the Dust)<br />released March 27, 2015</span>),
 		audio: "/music/plamen-reich_of_emptiness.mp3",
 		audioTitle: "Пламень - Рейх Пустоты",
-		bcLink: "https://plamen.bandcamp.com/album/--2",
+		bcLink: "https://plamen.bandcamp.com/album/to-the-dust",
 		trackRU: (
 			<ul className="text-sm font-thin">
 				<li>
@@ -247,7 +247,7 @@ const albumList = [
 		titleEN: (<span>(Plamen - Another Ones)<br />released November 30, 2017</span>),
 		audio: "/music/plamen-song_of_the_fallen_heart.mp3",
 		audioTitle: "Пламень - Песнь Падшего Сердца",
-		bcLink: "https://plamen.bandcamp.com/album/--3",
+		bcLink: "https://plamen.bandcamp.com/album/another-ones",
 		trackRU: (
 			<ul className="text-sm font-thin">
 				<li>
@@ -394,7 +394,7 @@ const albumList = [
 		titleEN: (<span>(Plamen - Anabasis ov Spirit)<br />released July 11, 2020</span>),
 		audio: "/music/plamen-cycle_overcoming.mp3",
 		audioTitle: "Пламень - Цикл (Преодоление)",
-		bcLink: "https://plamen.bandcamp.com/album/--4",
+		bcLink: "https://plamen.bandcamp.com/album/anabasis-ov-spirit",
 		trackRU: (
 			<ul className="text-sm font-thin">
 				<li>
@@ -557,20 +557,99 @@ const albumList = [
 				</li>
 			</ul>
 		),
-		textRU: (
-			<>
-				<div>
-					<p></p>
-				</div>
-			</>
-		),
-		textEN: (
-			<>
-				<div>
-					<p></p>
-				</div>
-			</>
-		),
+		texts: [
+			{
+				songTitle: "Магия крови | Blood Magic",
+				textRU: (
+					<>
+						<div>
+							<p>В свете луны кровь – смола черная.</p>
+							<p>Я омываюсь ей снова и снова.</p>
+							<p>Кровь течет сквозь персты мои в землю огненную,</p>
+							<p>В ее жертвенное лоно.</p>
+						</div>
+						<div className="mt-2">
+							<p>Земля впитала кровь – реки... море...</p>
+							<p>Впитала с кровью все горе человеческое.</p>
+							<p>И теперь ее стон в вечной черни разносится,</p>
+							<p>За Солнца лучи, за кольца Сатурна...</p>
+							<p>Где кровь бурлит в горниле Демиурга,</p>
+							<p>Где человек восходит к оси вечности,</p>
+							<p>Минуя форпост заклятия Иеговы,</p>
+							<p>Коим изувечен он.</p>
+						</div>
+						<div className="mt-2">
+							<p>Бросаю руки в лицо снова и снова,</p>
+							<p>Полные магии крови,</p>
+							<p>Полные истинной воли.</p>
+							<p>Я открываю свое сердце!</p>
+							<p>Открываю его  для Тебя!</p>
+						</div>
+						<div className="mt-2">
+							<p>Мать моя! Отец мой! Дитя мое любимое!</p>
+							<p>Кровь! Твоя магия в сущем и за пределами!</p>
+							<p>Бурными потоками нисходящая,</p>
+							<p>Да волчьими тропами идущая,</p>
+							<p>Я открываю сердце!</p>
+							<p>Открываю его  для Тебя!</p>
+						</div>
+						<div className="mt-2">
+							<p>Кровь! Твоя магия в сущем и за пределами!</p>
+							<p>Бурными потоками восходящая,</p>
+							<p>Да кружащая в небе во́ронами,</p>
+							<p>Увижу ли я твоей силы сияние?!</p>
+							<p>Вкушу ли я твоей гордости исполна?!</p>
+							<p>Смогу ли под натиском выстоять, вымучить истово</p>
+							<p>Свое благословение?!</p>
+						</div>
+					</>
+				),
+				textEN: (
+					<>
+						<div>
+							<p>In the light of the moon the blood is a black tar.</p>
+							<p>I wash myself with it over and over again.</p>
+							<p>Blood flows through my palms into the fiery earth,</p>
+							<p>into her sacrificial womb.</p>
+						</div>
+						<div className="mt-2">
+							<p>The earth has absorbed the blood - rivers of blood, a sea of blood,</p>
+							<p>With blood the earth absorbed all human sorrow.</p>
+							<p>And now its groaning is in the eternal blackness,</p>
+							<p>For the rays of Sun, for Saturns rings...</p>
+							<p>Where blood boils in the furnace of the Demiurge,</p>
+							<p>Where man ascends to the axis of eternity,</p>
+							<p>Passing the outpost of Jehovahs curse,</p>
+							<p>By whom he is mutilated.</p>
+						</div>
+						<div className="mt-2">
+							<p>I throw my hands in my face over and over,</p>
+							<p>Full of blood magic,</p>
+							<p>Full of true will.</p>
+							<p>I open my heart!</p>
+							<p>Opening it up for You!</p>
+						</div>
+						<div className="mt-2">
+							<p>My mother! My father! My beloved child!</p>
+							<p>Blood! Your magic in existence and beyond!</p>
+							<p>By stormy streams descending</p>
+							<p>And walking along wolf paths,</p>
+							<p>I open my heart!</p>
+							<p>Opening it up for You!</p>
+						</div>
+						<div className="mt-2">
+							<p>Blood! In existence and beyond your magic!</p>
+							<p>By stormy streams are ascending,</p>
+							<p>By crows circling in heaven,</p>
+							<p>Shall I see your power shine?!</p>
+							<p>Shall I taste your pride full?!</p>
+							<p>Will I be able to withstand the onslaught,</p>
+							<p>And get your blessing?!</p>
+						</div>
+					</>
+				),
+			}
+		]
 	},
 ];
 export default albumList;

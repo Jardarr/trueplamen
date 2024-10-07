@@ -20,6 +20,9 @@ export default function Header() {
                 <Link href="/samples" className="text-gray-300 font-thin custom-font mx-2">
                     Samples
                 </Link>
+                <Link href="/associates" className="text-gray-300 font-thin custom-font mx-2">
+                    Associates
+                </Link>
                 <Link href="/guestbook" className="text-gray-300 font-thin custom-font mx-2">
                     Guestbook
                 </Link>
