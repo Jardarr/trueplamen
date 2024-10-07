@@ -17,8 +17,11 @@ export default function Header() {
                 />
             </Link>
             <div className="hidden sm:flex items-center">
-                <Link href="/samples" className="text-white font-thin custom-font">
+                <Link href="/samples" className="text-gray-300 font-thin custom-font mx-2">
                     Samples
+                </Link>
+                <Link href="/guestbook" className="text-gray-300 font-thin custom-font mx-2">
+                    Guestbook
                 </Link>
             </div>
             <div className="flex items-center sm:hidden">

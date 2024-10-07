@@ -12,9 +12,8 @@ export default function Home() {
 						История группы берёт своё начало в 2006 году с
 						демо-записи, получившей название &quot;Return to
 						Death&quot;. Данный материал распространялся в узком
-						круге лиц, среди людей, вовлечённых в
-						(русский)блэк-метал андерграунд. В дальнейшем, силами
-						объединения
+						круге лиц, среди людей, вовлечённых в блэк-метал андерграунд. 
+						В дальнейшем, силами объединения&nbsp;
 						<a
 							className="underline hover:text-gray-400 transition-colors ease-in-out"
 							href="https://niemaracz.com/"
@@ -22,10 +21,10 @@ export default function Home() {
 						>
 							&quot;Niemarač Clan&quot;
 						</a>
-						Издается вторая демо-запись &quot;Seeds ov Hell&quot;.
+						&nbsp;Издается вторая демо-запись &quot;Seeds ov Hell&quot;.
 						Следующим шагом становится издание первого
 						полноформатного альбома под названием
-						&quot;Солнцу&quot;. Альбом издаётся силами лейбла
+						&quot;Солнцу&quot;. Альбом издаётся силами лейбла&nbsp;
 						<a
 							className="underline hover:text-gray-400 transition-colors ease-in-out"
 							href="https://rthdxfff.bandcamp.com/"

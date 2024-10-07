@@ -29,7 +29,7 @@ const AudioPlayer = ({ audio, audioTitle }: AudioPlayer) => {
 	};
 
 	return (
-		<div className="bg-slate-800/45 px-8 py-1 flex flex-col items-center text-center rounded-md">
+		<div className="bg-neutral-800/45 px-8 py-1 flex flex-col items-center text-center rounded-md">
             <div className="w-10 h-10 flex items-center justify-center"><Music4 /></div>
 			<h2>{audioTitle}</h2>
 			<audio ref={audioRef} src={audio} />

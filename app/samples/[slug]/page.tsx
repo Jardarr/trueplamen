@@ -30,13 +30,13 @@ const Album = ({ params }: AlbumProps) => {
 	return (
 		<div className="custom-font bg-img relative w-full flex flex-col items-center gap-8 pt-10 sm:justify-center min-h-screen sm:h-fit pb-20">
 			<div className="max-w-[900px] w-full flex flex-col sm:flex-row">
-				<div className="flex flex-col items-center justify-center bg-slate-800/45 p-3 rounded-md">
+				<div className="flex flex-col items-center bg-neutral-800/45 p-3 rounded-md">
 					<Image
 						src={album.imageBIG}
 						alt={album.alt}
 						width={500}
 						height={500}
-						className="rounded-md px-12 md:px-0"
+						className="rounded-md px-12 md:px-0 flex-1"
 					/>
 					<h1 className="text-gray-300 text-base">{album.titleRU}</h1>
 					<h2 className="text-gray-400 text-sm text-center font-thin">{album.titleEN}</h2>
@@ -45,7 +45,7 @@ const Album = ({ params }: AlbumProps) => {
 					<AudioPlayer audio={audio} audioTitle={audioTitle} />
 					<div className="mt-4">{album.trackRU}</div>
 					<div className="mt-2">{album.trackEN}</div>
-				<h3 className="mt-4 underline hover:text-gray-400 transition-colors ease-in-out"><a target="_blank" href={album.bcLink}>Слушать на Bandcamp</a></h3>
+					<h3 className="mt-4 underline hover:text-gray-400 transition-colors ease-in-out"><a target="_blank" href={album.bcLink}>Слушать на Bandcamp</a></h3>
 				</div>
 			</div>
 			<Separator className="my-12 sm:max-w-7xl max-w-72 mx-auto" />

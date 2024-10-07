@@ -24,4 +24,12 @@
   background-attachment: fixed;
   filter: brightness(0.14);
   z-index: -1;
+}
+
+.wasted {
+  font-family: var(--font-gta);
+}
+
+.custom-font {
+  font-family: var(--font-corSC);
 }/*# sourceMappingURL=index.css.map */

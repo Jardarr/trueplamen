@@ -7,7 +7,7 @@ export default function Samples() {
 		<div className="custom-font bg-img relative flex justify-center pt-10 sm:py-7 gap-3 h-fit">
 			<div className="cover-box max-w-[1200px] flex justify-center flex-wrap gap-3">
 				{coverList.map((album) => (
-					<div key={album.alt} className="cover-link h-fit bg-slate-800/45 p-3 rounded-md">
+					<div key={album.alt} className="cover-link h-fit bg-neutral-900/45 p-3 rounded-md">
 						<Link href={album.link}>
 							<Image
 								className="rounded-md"
