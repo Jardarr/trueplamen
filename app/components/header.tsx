@@ -17,7 +17,7 @@ export default function Header() {
                 />
             </Link>
             <div className="hidden sm:flex items-center">
-                <Link href="/samples" className="text-white font-thin">
+                <Link href="/samples" className="text-white font-thin custom-font">
                     Samples
                 </Link>
             </div>

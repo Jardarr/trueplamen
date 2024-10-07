@@ -5,7 +5,7 @@ import MailLink from "./links/mailLink";
 
 export default function Footer() {
 	return (
-		<div className="flex flex-col lg:justify-between lg:flex-row md:text-xs text-gray-500 text-xs">
+		<div className="custom-font flex flex-col lg:justify-between lg:flex-row md:text-xs text-gray-500 text-xs">
 			<div className="flex justify-center sm:justify-start flex-col">
 				<div className="flex justify-center sm:justify-start items-center flex-wrap">
 					<Link

@@ -20,6 +20,11 @@ const gtaWasted = localFont({
 	variable: "--font-gta",
 	weight: "100 900",
 });
+const cormorantSCReg = localFont({
+	src: "./fonts/CormorantSC-Regular.ttf",
+	variable: "--font-corSC",
+	weight: "100 900",
+});
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -33,7 +38,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${geistSans.variable} ${geistMono.variable} ${gtaWasted.variable} antialiased bg-black`}>
+			<body className={`${geistSans.variable} ${geistMono.variable} ${gtaWasted.variable} ${cormorantSCReg.variable} antialiased bg-black`}>
 				<div className="px-4 md:px-24">
 					<Header />
 				</div>
