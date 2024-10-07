@@ -22,7 +22,7 @@ export default async function Guestbook() {
     const data = await getEntries();
 
     return (
-        <div className="custom-font h-screen w-full flex justify-center">
+        <div className="bg-img custom-font h-custom-height w-full flex justify-center">
             <div className="w-full max-w-[1200px] px-4 md:px-0">
                 <div className="space-y-2 pt-6 pb-8 md:space-y-5">
                     <h1 className="text-3xl text-gray-800 sm:text-4xl md:text-6xl leading-9 sm:leading-10 md:leading-14 tracking-tight">
