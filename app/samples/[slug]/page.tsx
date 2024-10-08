@@ -64,32 +64,25 @@ const Album = ({ params }: AlbumProps) => {
             <div className="max-w-[900px] w-full">
                 {/* <div>{album.textRU}</div>
 				<div>{album.textEN}</div> */}
-                <Accordion
-                    type="single"
-                    collapsible
-                    className="text-gray-300"
-                >
-                    <AccordionItem value="item-1">
-                        <AccordionTrigger className="w-full px-4 sm:px-0">
-                            {album.texts ? album.texts[0].songTitle : null}
-                        </AccordionTrigger>
-						<AccordionContent>
-                            {album.texts ? (
-								album.texts.map((text, index) => (
+                {album.texts ? (
+                    album.texts.map((text, index) => (
+                        <Accordion key={index} type="single" collapsible>
+                            <AccordionItem value="item-1">
+                                <AccordionTrigger className="w-full px-4 sm:px-0 text-gray-300">{album.texts ? album.texts[index].songTitle : null}</AccordionTrigger>
+                                <AccordionContent>
                                     <div
-                                        key={index}
                                         className="max-w-[900px] w-full flex flex-col sm:flex-row text-gray-300 text-sm font-thin gap-6 px-4"
                                     >
-                                        <div>{text.textRU}</div>
-                                        <div>{text.textEN}</div>
+                                        <div className="sm:w-1/2">{text.textRU}</div>
+                                        <div className="sm:w-1/2">{text.textEN}</div>
                                     </div>
-                                ))
-                            ) : (
-                                <div>No texts available</div>
-                            )}
-                        </AccordionContent>
-                    </AccordionItem>
-                </Accordion>
+                                </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    ))
+                ) : (
+                    <div>No texts available</div>
+                )}
             </div>
         </div>
     );
