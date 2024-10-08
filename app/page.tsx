@@ -10,9 +10,15 @@ export default function Home() {
 				<div className="custom-font max-w-[1200px] italic">
 					<p>
 						История группы берёт своё начало в 2006 году с
-						демо-записи, получившей название &quot;Return to
-						Death&quot;. Данный материал распространялся в узком
-						круге лиц, среди людей, вовлечённых в блэк-метал андерграунд. 
+						демо-записи, получившей название&nbsp; 
+						<a 
+							className="underline hover:text-gray-400 transition-colors ease-in-out" 
+							href="https://plamen.bandcamp.com/album/return-to-death-3" 
+							target="_blank" 
+						>
+							&quot;Return to Death&quot;
+						</a>. Данный материал распространялся в узком
+						круге лиц, среди людей, вовлечённых в блэк-метал андерграунд.
 						В дальнейшем, силами объединения&nbsp;
 						<a
 							className="underline hover:text-gray-400 transition-colors ease-in-out"
@@ -21,7 +27,14 @@ export default function Home() {
 						>
 							&quot;Niemarač Clan&quot;
 						</a>
-						&nbsp;Издается вторая демо-запись &quot;Seeds ov Hell&quot;.
+						&nbsp;Издается вторая демо-запись&nbsp;
+						<a 
+							className="underline hover:text-gray-400 transition-colors ease-in-out" 
+							href="https://plamen.bandcamp.com/album/seeds-ov-hell" 
+							target="_blank"
+						>
+						&quot;Seeds ov Hell&quot;.
+						</a>&nbsp;
 						Следующим шагом становится издание первого
 						полноформатного альбома под названием
 						&quot;Солнцу&quot;. Альбом издаётся силами лейбла&nbsp;
