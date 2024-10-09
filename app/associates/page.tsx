@@ -17,6 +17,9 @@ export default function Samples() {
                     <div className="bg-neutral-900/45 p-3 mx-4 rounded-md h-fit">
                         <Link className="text-center flex flex-col items-center" href="https://rthdxfff.bandcamp.com/" target="_blank"><Image className="w-[120px] hover:scale-110 transition-transform ease-in-out" src="/associates-img/tsk.png" alt="thou_shalt_kill" width={100} height={300} /><p className="pt-2">Thou Shalt Kill!</p></Link>
                     </div>
+                    <div className="bg-neutral-900/45 p-3 mx-4 rounded-md h-fit">
+                        <Link className="text-center flex flex-col items-center" href="https://youtube.com/@amkrafter?si=AHkoItXkTWDd1LWU" target="_blank"><Image className="w-[120px] h-[150px] hover:scale-110 transition-transform ease-in-out" src="/associates-img/saturn.png" alt="saturn" width={100} height={300} /><p className="pt-2">Saturn</p></Link>
+                    </div>
                 </div>
             </div>
         </div>
