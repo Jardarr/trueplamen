@@ -60,8 +60,8 @@ export default function HeroLogo() {
 			<Image
 				src="/hero-logo.png"
 				alt="hero image"
-				width={1000}
-				height={1000}
+				width={950}
+				height={800}
 			/>
 		</div>
 	);
