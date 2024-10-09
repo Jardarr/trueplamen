@@ -2,11 +2,11 @@
 import {
 	Sheet,
 	SheetContent,
-	SheetDescription,
 	SheetHeader,
 	SheetTitle,
 	SheetTrigger,
 } from "@/components/ui/sheet";
+import Link from "next/link";
 
 export default function BurgerMenu() {
 	return (
@@ -28,12 +28,9 @@ export default function BurgerMenu() {
 				</SheetTrigger>
 				<SheetContent>
 					<SheetHeader>
-						<SheetTitle>Are you absolutely sure?</SheetTitle>
-						<SheetDescription>
-							This action cannot be undone. This will permanently
-							delete your account and remove your data from our
-							servers.
-						</SheetDescription>
+						<SheetTitle><Link href="/samples">Samples</Link></SheetTitle>
+						<SheetTitle><Link href="/associates">Associates</Link></SheetTitle>
+						<SheetTitle><Link href="/guestbook">Guestbook</Link></SheetTitle>
 					</SheetHeader>
 				</SheetContent>
 			</Sheet>
