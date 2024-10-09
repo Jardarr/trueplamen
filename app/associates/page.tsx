@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Samples() {
     return (
-        <div className="custom-font bg-img flex justify-center pt-10 sm:py-7 min-h-[100%] h-custom-height">
+        <div className="custom-font bg-img flex justify-center pt-10 sm:py-7 h-custom-height">
             <div className="max-w-[1200px] w-full flex flex-col gap-3 text-gray-300">
                 <div className="space-y-2 pl-4 pt-6 pb-8 md:space-y-5">
                     <h1 className="text-3xl text-gray-800 sm:text-4xl md:text-6xl leading-9 sm:leading-10 md:leading-14 tracking-tight">
