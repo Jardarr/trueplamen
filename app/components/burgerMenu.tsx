@@ -7,12 +7,18 @@ import {
 	SheetTrigger,
 } from "@/components/ui/sheet";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function BurgerMenu() {
+	const [isSheetOpen, setIsSheetOpen] = useState(false);
+
+	const handleLinkClick = () => {
+		setIsSheetOpen(false);
+	};
 	return (
 		<div className="flex items-center">
-			<Sheet>
-				<SheetTrigger className="align-middle w-6 h-6 rounded-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
+			<Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
+				<SheetTrigger onClick={() => setIsSheetOpen(true)} className="align-middle w-6 h-6 rounded-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						strokeWidth={1.5}
@@ -28,9 +34,9 @@ export default function BurgerMenu() {
 				</SheetTrigger>
 				<SheetContent>
 					<SheetHeader>
-						<SheetTitle><Link className="custom-font" href="/samples">Samples</Link></SheetTitle>
-						<SheetTitle><Link className="custom-font" href="/associates">Associates</Link></SheetTitle>
-						<SheetTitle><Link className="custom-font" href="/guestbook">Guestbook</Link></SheetTitle>
+						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/samples">Samples</Link></SheetTitle>
+						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/associates">Associates</Link></SheetTitle>
+						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/guestbook">Guestbook</Link></SheetTitle>
 					</SheetHeader>
 				</SheetContent>
 			</Sheet>
