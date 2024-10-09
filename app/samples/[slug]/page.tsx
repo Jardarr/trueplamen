@@ -7,6 +7,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
+import Head from "next/head";
 import Image from "next/image";
 
 interface AlbumProps {
@@ -35,6 +36,13 @@ const Album = ({ params }: AlbumProps) => {
 
     return (
         <div className="custom-font bg-img relative w-full flex flex-col items-center gap-8 pt-10 sm:justify-center min-h-screen sm:h-fit pb-20">
+            <Head>
+                <title>{album.titleEN}</title>
+                <meta name="description" content={album.description} />
+                <meta property="og:title" content={album.titleRU} />
+                <meta property="og:description" content={album.description} />
+                <meta property="og:image" content={album.image} />
+            </Head>
             <div className="max-w-[900px] w-full flex flex-col sm:flex-row">
                 <div className="flex flex-col items-center bg-neutral-800/45 p-3 rounded-md">
                     <Image

@@ -6,7 +6,7 @@ import BurgerMenu from "./burgerMenu";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
-    let pathname = usePathname();
+    const pathname = usePathname();
     return (
         <div className="flex w-full justify-between">
             <Link href="/">
