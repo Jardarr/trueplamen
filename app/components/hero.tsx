@@ -16,7 +16,7 @@ export default function Hero() {
                     &quot;Пламень&quot; Пимен Карпов
                 </p> */}
             </div>
-            <div className="heroCard opacity-0">
+            <div className="heroCard opacity-0 w-full max-w-[700px]">
                 <HeroLogo />
             </div>
         </div>
