@@ -35,7 +35,7 @@ const Album = ({ params }: AlbumProps) => {
     const audioTitle = album.audioTitle ?? "";
 
     return (
-        <div className="custom-font bg-img relative w-full flex flex-col items-center gap-8 pt-10 sm:justify-center min-h-screen sm:h-fit pb-20">
+        <div className="custom-font relative w-full flex flex-col items-center gap-8 pt-10 sm:justify-center pb-20 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
             <Head>
                 <title>{album.titleEN}</title>
                 <meta name="description" content={album.description} />
