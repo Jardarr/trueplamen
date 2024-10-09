@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function BurgerMenu() {
 	return (
-		<div className="flex items-center">
+		<div className="flex items-center custom-font">
 			<Sheet>
 				<SheetTrigger className="align-middle w-6 h-6 rounded-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
 					<svg
