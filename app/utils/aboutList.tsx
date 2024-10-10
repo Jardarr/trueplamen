@@ -12,8 +12,8 @@ const aboutList = [
         titleEN: "Act 2.",
         stanzaRU: (<span>&quot;Пламенейте Духом, поклоняйтесь Господу&quot;</span>),
         stanzaEN: (<span>&quot;Fervent in Spirit, Serving the Lord&quot;</span>),
-        descriptionRU: (<span>EP &quot;Seeds ov Hell&quot; был создан в 2008 году, но обрел свое физическое воплощение в 2011 силами белорусского лейбла &quot;Aeon of Horus&quot; и объединения &quot;Niemarač Clan&quot;. Емкое высказывание с веяниеми французской блэк-метал сцены, состоящее из трех основных композиций.</span>),
-        descriptionEN: (<span>EP &quot;Seeds ov Hell&quot; was created in 2008, but found its physical embodiment in 2011 by the forces of the Belarus label &quot;Aeon of Horus&quot; and the union of the &quot;Niemarač Clan&quot;. A succinct statement with the trends of the French black metal scene, consisting of three main compositions.</span>),
+        descriptionRU: (<span>EP &quot;Seeds ov Hell&quot; был создан в 2008 году, но обрел свое физическое воплощение в 2011 силами белорусского лейбла &quot;Aeon of Horus&quot; объединения &quot;Niemarač Clan&quot;. Емкое высказывание с веяниеми французской блэк-метал сцены, состоящее из трех основных композиций.</span>),
+        descriptionEN: (<span>EP &quot;Seeds ov Hell&quot; was created in 2008, but found its physical embodiment in 2011 by the forces of the Belarus label &quot;Aeon of Horus&quot; of the &quot;Niemarač Clan&quot;. A succinct statement with the trends of the French black metal scene, consisting of three main compositions.</span>),
     },
     {
         titleRU: "Акт 3.",
