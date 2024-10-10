@@ -8,6 +8,15 @@ export default function Footer() {
 		<div className="custom-font flex flex-col lg:justify-between lg:flex-row md:text-xs text-gray-500 text-xs">
 			<div className="flex justify-center sm:justify-start flex-col">
 				<div className="flex justify-center w-full">
+					<div className="flex justify-center sm:justify-start items-center flex-wrap">
+						<Link
+							translate="no"
+							className="px-2 hover:text-gray-300"
+							href="/about-us"
+						>
+							About us
+						</Link>
+					</div>
 					<div className="flex justify-center sm:justify-start items-center">
 						<Link
 							translate="no"
@@ -24,15 +33,6 @@ export default function Footer() {
 							href="/associates"
 						>
 							Associates
-						</Link>
-					</div>
-					<div className="flex justify-center sm:justify-start items-center flex-wrap">
-						<Link
-							translate="no"
-							className="px-2 hover:text-gray-300"
-							href="/about-us"
-						>
-							About us
 						</Link>
 					</div>
 					<div className="flex justify-center sm:justify-start items-center flex-wrap">
