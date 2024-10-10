@@ -11,14 +11,14 @@ export default function Samples() {
                     </h1>
                 </div>
                 <div className="w-full flex flex-col sm:flex-row gap-3">
-                    <div className="bg-neutral-900/45 p-3 mx-4 rounded-md h-[180px]">
-                        <Link className="text-center flex flex-col items-center" href="https://niemaracz.com/" target="_blank"><Image className="w-[120px] hover:scale-110 transition-transform ease-in-out" src="/associates-img/nmrcz.svg" alt="niemaracz" width={100} height={300} /><p className="pt-2">Niemarač Clan</p></Link>
+                    <div className="bg-neutral-900/45 p-3 mx-4 rounded-md">
+                        <Link className="text-center flex flex-col items-center" href="https://niemaracz.com/" target="_blank"><Image className="w-[120px] hover:scale-110 transition-transform ease-in-out" src="/associates-img/nmrcz.svg" alt="niemaracz" width={120} height={150} /><p className="pt-2">Niemarač Clan</p></Link>
                     </div>
-                    <div className="bg-neutral-900/45 p-3 mx-4 rounded-md h-[180px]">
-                        <Link className="text-center flex flex-col items-center" href="https://rthdxfff.bandcamp.com/" target="_blank"><Image className="w-[120px] hover:scale-110 transition-transform ease-in-out" src="/associates-img/tsk.png" alt="thou_shalt_kill" width={100} height={300} /><p className="pt-2">Thou Shalt Kill!</p></Link>
+                    <div className="bg-neutral-900/45 p-3 mx-4 rounded-md">
+                        <Link className="text-center flex flex-col items-center" href="https://rthdxfff.bandcamp.com/" target="_blank"><Image className="w-[120px] hover:scale-110 transition-transform ease-in-out" src="/associates-img/tsk.png" alt="thou_shalt_kill" width={120} height={150} /><p className="pt-2">Thou Shalt Kill!</p></Link>
                     </div>
-                    <div className="bg-neutral-900/45 p-3 mx-4 rounded-md h-[180px]">
-                        <Link className="text-center flex flex-col items-center" href="https://youtube.com/@amkrafter?si=AHkoItXkTWDd1LWU" target="_blank"><Image className="w-[120px] h-[153px] hover:scale-110 transition-transform ease-in-out" src="/associates-img/saturn.png" alt="saturn" width={100} height={300} /><p className="pt-2 uppercase">Saturn</p></Link>
+                    <div className="bg-neutral-900/45 p-3 mx-4 rounded-md">
+                        <Link className="text-center flex flex-col items-center" href="https://youtube.com/@amkrafter?si=AHkoItXkTWDd1LWU" target="_blank"><Image className="w-[120px] h-[153px] hover:scale-110 transition-transform ease-in-out" src="/associates-img/saturn.png" alt="saturn" width={120} height={150} /><p className="pt-2 uppercase">Saturn</p></Link>
                     </div>
                 </div>
             </div>

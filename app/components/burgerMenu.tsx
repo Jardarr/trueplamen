@@ -36,6 +36,7 @@ export default function BurgerMenu() {
 					<SheetHeader>
 						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/samples">Samples</Link></SheetTitle>
 						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/associates">Associates</Link></SheetTitle>
+						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/about-us">About us</Link></SheetTitle>
 						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/guestbook">Guestbook</Link></SheetTitle>
 					</SheetHeader>
 				</SheetContent>

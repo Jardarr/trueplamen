@@ -30,6 +30,15 @@ export default function Footer() {
 						<Link
 							translate="no"
 							className="px-2 hover:text-gray-300"
+							href="/about-us"
+						>
+							About us
+						</Link>
+					</div>
+					<div className="flex justify-center sm:justify-start items-center flex-wrap">
+						<Link
+							translate="no"
+							className="px-2 hover:text-gray-300"
 							href="/guestbook"
 						>
 							Guestbook

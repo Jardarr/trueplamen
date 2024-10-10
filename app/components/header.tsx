@@ -25,6 +25,9 @@ export default function Header() {
                 <Link href="/associates" className={`${pathname === "/associates" ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2" : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"}`}>
                     Associates
                 </Link>
+                <Link href="/about-us" className={`${pathname === "/about-us" ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2" : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"}`}>
+                    About us
+                </Link>
                 <Link href="/guestbook" className={`${pathname === "/guestbook" ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2" : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"}`}>
                     Guestbook
                 </Link>
