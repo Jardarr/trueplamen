@@ -27,7 +27,7 @@ const cormorantSCReg = localFont({
 });
 
 export const metadata: Metadata = {
-	title: "True Plamen",
+	title: "Plamen",
 	description: "Black Metal band from Mordor, created in 2006.",
 };
 
