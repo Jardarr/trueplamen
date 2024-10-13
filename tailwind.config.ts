@@ -54,7 +54,7 @@ const config: Config = {
 				},
 			},
 			backgroundImage: {
-				"hero-bg": "url(/heroes-bw.jpg)",
+				"hero-bg": "url(/heroes-bg.jpg)",
 				"main-bg": "url(/main.jpg)",
 				wasted: "url(/wasted.jpg)",
 			},
