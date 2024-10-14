@@ -16,3 +16,10 @@
 .custom-font {
     font-family: var(--font-corSC);
 }
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 0) !important;
+}
+.swiper-button-prev, .swiper-button-next {
+    color: #fff !important;
+}

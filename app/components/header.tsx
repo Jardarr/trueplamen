@@ -11,10 +11,10 @@ export default function Header() {
         <div className="flex w-full justify-between">
             <Link href="/">
                 <Image
-                    className="w-30 p-2"
+                    className="p-2"
                     src="/head-logo.png"
                     width={150}
-                    height={30}
+                    height={150}
                     alt="logo"
                 />
             </Link>
