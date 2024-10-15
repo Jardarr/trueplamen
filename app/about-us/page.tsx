@@ -1,6 +1,57 @@
 import { Separator } from "@/components/ui/separator";
 import aboutList from "../utils/aboutList";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Plamen | About Us",
+    description: "Plamen | About Us. Black Metal band from Mordor, created in 2006.",
+    keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
+    authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
+    applicationName: "Plamen Official",
+    openGraph: {
+        title: "Plamen | About Us - Black Metal band from Mordor",
+        description:
+            "Plamen | About Us. Official website of the Black Metal band Plamen, created in 2006.",
+        url: "https://plamenband.ru",
+        siteName: "Plamen Official",
+        images: [
+            {
+                url: "/og-logo.jpg",
+                width: 800,
+                height: 600,
+                alt: "Plamen Band Cover",
+            },
+        ],
+        locale: "ru-RU",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Plamen | About Us. Plamen - Black Metal band from Mordor",
+        description: "Plamen | About Us. Visit the official website of the band Plamen.",
+        images: ["/og-logo.jpg"],
+    },
+    viewport: "width=device-width, initial-scale=1",
+    themeColor: "#000000",
+    robots: {
+        index: true,
+        follow: true,
+        nocache: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: false,
+            "max-snippet": -1,
+            "max-image-preview": "large",
+            "max-video-preview": -1,
+        },
+    },
+    alternates: {
+        canonical: "https://plamenband.ru",
+    },
+};
+
 export default function Samples() {
     return (
         <div className="custom-font flex justify-center pt-10 sm:py-7 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">

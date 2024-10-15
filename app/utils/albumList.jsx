@@ -5,7 +5,7 @@ const albumList = [
 		alt: "seeds-ov-hell",
 		image: "/covers/seeds-ov-hell.jpg",
 		imageBIG: "/covers/seeds-ov-hell-BIG.jpg",
-		titleRU: "Пламень - Seeds ov Hell (2013)",
+		titleRU: "Пламень - Seeds ov Hell (2011)",
 		description:
 			"Plamen - Seeds ov Hell, released September 14, 2018. Plamen - black metal band from Saransk, Russia.",
 		titleEN: (
