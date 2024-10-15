@@ -15,9 +15,12 @@ type ImageData = {
 };
 
 type GalleryItem = {
-    anabasis?: ImageData[];
-    magick?: ImageData[];
-    another?: ImageData[];
+    seeds_ov_hell?: ImageData[];
+    for_the_sun?: ImageData[];
+    to_ashes?: ImageData[];
+    another_ones?: ImageData[];
+    anabasis_of_spirit?: ImageData[];
+    magick_of_blood?: ImageData[];
 };
 
 import galleryList from "../utils/galleryList";
@@ -66,7 +69,7 @@ export default function Samples() {
                                 const images = item[key as keyof GalleryItem];
                                 if (images && Array.isArray(images)) {
                                     return (
-                                        <div key={key}>
+                                        <div key={key} className="flex flex-wrap gap-3 px-2">
                                             {images.map((img: ImageData, imgIndex: number) => (
                                                 <Image
                                                     key={img.id}

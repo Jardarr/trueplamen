@@ -26,6 +26,15 @@ export default function Footer() {
 							Samples
 						</Link>
 					</div>
+					<div className="flex justify-center sm:justify-start items-center">
+						<Link
+							translate="no"
+							className="px-2 hover:text-gray-300"
+							href="/gallery"
+						>
+							Gallery
+						</Link>
+					</div>
 					<div className="flex justify-center sm:justify-start items-center flex-wrap">
 						<Link
 							translate="no"
