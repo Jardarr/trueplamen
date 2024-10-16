@@ -12,7 +12,7 @@ const albumList = [
 			<span>
 				(Plamen - Seeds ov Hell)
 				<br />
-				released September 14, 2018
+				released April 8, 2011
 			</span>
 		),
 		audio: "/music/plamen-servants-ov-nothing.mp3",
