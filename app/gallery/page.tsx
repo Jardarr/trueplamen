@@ -92,7 +92,7 @@ export default function Samples() {
                         <div className="bg-black/60 top-0 left-0 fixed w-full h-full flex items-center justify-center z-10">
                             <svg
                                 onClick={closeModal}
-                                className="absolute top-3 right-4 text-gray-300 cursor-pointer z-10"
+                                className="absolute top-16 right-4 text-gray-300 cursor-pointer z-10"
                                 width="26"
                                 height="26"
                                 viewBox="0 0 24 24"
