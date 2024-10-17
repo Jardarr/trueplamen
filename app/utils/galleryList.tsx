@@ -48,52 +48,47 @@ const galleryList = [
             {
                 id: 1,
                 alt: "for_the_sun-1",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts1.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/fts1.jpg",
             },
             {
                 id: 2,
                 alt: "for_the_sun-2",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts2.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/fts2.jpg",
             },
             {
                 id: 3,
                 alt: "for_the_sun-3",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts3.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/fts3.jpg",
             },
             {
                 id: 4,
                 alt: "for_the_sun-4",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts4.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/fts4.jpg",
             },
             {
                 id: 5,
                 alt: "for_the_sun-5",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts5.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/fts5.jpg",
             },
             {
                 id: 6,
                 alt: "for_the_sun-6",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts6.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/fts6.jpg",
             },
             {
                 id: 7,
                 alt: "for_the_sun-7",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts7.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/fts7.jpg",
             },
             {
                 id: 8,
                 alt: "for_the_sun-8",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts8.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/fts8.jpg",
             },
             {
                 id: 9,
                 alt: "for_the_sun-9",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts9.jpg",
-            },
-            {
-                id: 10,
-                alt: "for_the_sun-10",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/tts10.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/for-the-sun/fts9.jpg",
             },
         ]
     },
@@ -102,17 +97,32 @@ const galleryList = [
             {
                 id: 1,
                 alt: "to_ashes-1",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/to-ashes/itd1.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/to-ashes/ta1.jpg",
             },
             {
                 id: 2,
                 alt: "to_ashes-2",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/to-ashes/itd2.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/to-ashes/ta2.jpg",
             },
             {
                 id: 3,
                 alt: "to_ashes-3",
-                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/to-ashes/itd3.jpg",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/to-ashes/ta3.jpg",
+            },
+            {
+                id: 4,
+                alt: "to_ashes-4",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/to-ashes/ta4.jpg",
+            },
+            {
+                id: 5,
+                alt: "to_ashes-5",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/to-ashes/ta5.jpg",
+            },
+            {
+                id: 6,
+                alt: "to_ashes-6",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/to-ashes/ta6.jpg",
             },
         ]
     },
@@ -142,6 +152,21 @@ const galleryList = [
                 id: 5,
                 alt: "another_ones-5",
                 src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/another-ones/ao5.jpg",
+            },
+            {
+                id: 6,
+                alt: "another_ones-6",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/another-ones/ao6.jpg",
+            },
+            {
+                id: 7,
+                alt: "another_ones-7",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/another-ones/ao7.jpg",
+            },
+            {
+                id: 8,
+                alt: "another_ones-8",
+                src: "https://fonqjzxztszpkmtoctbv.supabase.co/storage/v1/object/public/plamen_gallery/another-ones/ao8.jpg",
             },
         ]
     },
