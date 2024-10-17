@@ -14,7 +14,7 @@ export default function Header() {
                     className="p-2"
                     src="/head-logo.png"
                     width={150}
-                    height={150}
+                    height={30}
                     alt="logo"
                 />
             </Link>
