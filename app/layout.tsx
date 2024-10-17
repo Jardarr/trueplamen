@@ -83,7 +83,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`${geistSans.variable} ${geistMono.variable} ${gtaWasted.variable} ${cormorantSCReg.variable} antialiased bg-black`}>
-				<div className="px-4 md:px-24 bg-black sticky top-0">
+				<div className="px-4 md:px-24 bg-black sticky top-0 z-50">
 					<Header />
 				</div>
 				{children}
