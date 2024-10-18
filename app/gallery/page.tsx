@@ -26,7 +26,7 @@ type GalleryItem = {
 import galleryList from "../utils/galleryList";
 import { Separator } from "@/components/ui/separator";
 
-export default function Samples() {
+export default function Gallery() {
     const [modalOpen, setModalOpen] = useState(false);
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [isBrowser, setIsBrowser] = useState(false);
