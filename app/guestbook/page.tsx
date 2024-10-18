@@ -59,7 +59,7 @@ interface GuestbookEntry {
 
 async function getEntries() {
     const data = await prisma.guestbook.findMany({
-        take: 10,
+        take: 15,
         orderBy: {
             created_at: "desc",
         },
