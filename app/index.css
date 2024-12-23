@@ -17,4 +17,22 @@
 
 .custom-font {
   font-family: var(--font-corSC);
+}
+
+.news-link {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.news-box:hover .news-link {
+  opacity: 1;
+  color: #fff;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 0) !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #fff !important;
 }/*# sourceMappingURL=index.css.map */

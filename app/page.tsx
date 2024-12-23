@@ -3,6 +3,7 @@ import Hero from "./components/hero";
 import { Separator } from "@/components/ui/separator";
 
 import { Metadata } from "next";
+import PreviewKingOfLifeAndDeath from "./components/newsPreview/previewKingOvLifeAndDeath";
 
 export const metadata: Metadata = {
     title: "Plamen | Home Page",
@@ -58,10 +59,11 @@ export default function Home() {
         <>
             <Hero />
             <Separator className="mt-4 sm:mt-40 max-w-7xl mx-auto" />
-            <div className="text-gray-300 sm:text-2xl px-3 my-4 sm:my-40 flex justify-center">
+            <div className="text-gray-300 sm:text-2xl px-3 my-4 sm:my-40 flex items-center flex-col">
                 <div className="custom-font max-w-[1200px] italic">
                     <p>IGNE NATURA RENOVATUR INTEGRA </p>
                 </div>
+                <PreviewKingOfLifeAndDeath />
             </div>
         </>
     );
