@@ -6,8 +6,10 @@ export default function PreviewKingOvLifeAndDeath() {
     return (
         <div className="custom-font w-full max-w-[1000px] pt-10 sm:py-7 gap-3">
             <div className="news-box bg-neutral-900 rounded-md">
-                <Link href="/news/king-ov-life-and-death" className="flex flex-col sm:flex-row justify-between items-center">
-                    <Image className="rounded-md m-3 h-[150px]" src="/covers/king-ov-life-and-death-preview.jpg" alt="" width={150} height={150} />
+                <Link href="/news/king-ov-life-and-death" className="overflow-hidden flex flex-col sm:flex-row justify-between items-center">
+                    <div className="w-full h-[180px] sm:w-[200px] sm:h-[200px]">
+                        <Image className="h-full w-full object-cover rounded-t-md sm:rounded-l-md sm:rounded-r-none" src="/covers/king-ov-life-and-death-BIG.jpg" alt="" width={150} height={150} />
+                    </div>
                     <div className="flex-1 m-4">
 						<p className="text-gray-300 text-sm sm:text-xl">NEW !!!</p>
                         <h1 className="text-gray-300 text-sm sm:text-xl">&quot;В Свете Авроры&quot; - премьерный трек с грядущего высказывания...</h1>
