@@ -57,15 +57,18 @@ export default function AlbumKingOfLifeAndDeath() {
         <div className="custom-font relative flex justify-center items-center pt-10 sm:py-7 gap-3 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
             <div className="cover-box max-w-[1200px] flex justify-center mx-4">
                 <div className="cover-link h-fit bg-neutral-900/45 p-3 rounded-md">
-                    <div className="flex flex-col items-center sm:flex-row">
-                        <Image className="rounded-md h-[200px] w-[200px] sm:w-[400px] sm:h-auto" src="/covers/king-ov-life-and-death-BIG.jpg" alt="" width={400} height={400} />
+                    <div className="flex flex-col items-center lg:flex-row">
+                        <Image className="rounded-md h-[250px] w-[250px] sm:w-[400px] sm:h-auto" src="/covers/king-ov-life-and-death-BIG.jpg" alt="" width={400} height={400} />
                         <div className="flex flex-col m-4 sm:mx-8">
                             <div>
                                 <h1 className="text-gray-300 text-sm sm:text-xl mb-3">
-                                    Приветствуем! Вашему вниманию представляется &quot;В Свете Авроры&quot; - премьерный трек с грядущего высказывания &quot;Король Жизни и Смерти&quot;. Официальный релиз в следующем году. Следите за обновлениями!
+                                    Спустя два года после выхода альбома &quot;Магия Крови&quot;, мы с гордостью анонсируем наше новое творение — &quot;Король Жизни и Смерти&quot;. Этот альбом станет восьмым актом путешествия Пламень. Уже сейчас вы
+                                    можете насладиться первым треком &quot;В Свете Авроры&quot;, доступным на нашей странице Bandcamp. <br />
+                                    Официальный релиз альбома запланирован на следующий год. Следите за обновлениями.
                                 </h1>
                                 <h2 className="text-gray-400 text-sm">
-                                    Hail! We present to your attention &quot;In the Light ov Aurora&quot; - the premiere track from the upcoming statement &quot;King ov Life and Death&quot;. Official release next year. Stay tuned!
+                                    Two years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King of Life and Death&quot;. This album will be the eighth act in Plamen&#39;s journey. You can
+                                    already enjoy the first track, &quot;In the Light of the Aurora&quot;, available on our Bandcamp page. The official album release is scheduled for next year. Stay tuned for updates!
                                 </h2>
                             </div>
                             <p className="text-right mt-10 sm:mt-30">
