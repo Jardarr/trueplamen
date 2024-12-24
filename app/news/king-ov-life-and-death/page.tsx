@@ -67,7 +67,7 @@ export default function AlbumKingOfLifeAndDeath() {
                                     Официальный релиз альбома запланирован на следующий год. Следите за обновлениями.
                                 </h1>
                                 <h2 className="text-gray-400 text-sm">
-                                    Two years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King of Life and Death&quot;. This album will be the eighth act in Plamen&#39;s journey. You can
+                                    Two years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King ov Life and Death&quot;. This album will be the eighth act in Plamen&#39;s journey. You can
                                     already enjoy the first track, &quot;In the Light of the Aurora&quot;, available on our Bandcamp page. The official album release is scheduled for next year. Stay tuned for updates!
                                 </h2>
                             </div>
