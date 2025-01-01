@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import BandCamp from "./links/bandCamp";
 import YouTube from "./links/youTube";
