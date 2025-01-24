@@ -1,5 +1,5 @@
-import AudioPlayer from "@/app/components/audioPlayer";
-import albumList from "@/app/utils/albumList";
+import AudioPlayer from "@/src/app/components/audioPlayer";
+import albumList from "@/src/app/utils/albumList";
 import {
     Accordion,
     AccordionContent,

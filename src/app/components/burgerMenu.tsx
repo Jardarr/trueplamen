@@ -6,8 +6,9 @@ import {
 	SheetTitle,
 	SheetTrigger,
 } from "@/components/ui/sheet";
-import Link from "next/link";
 import { useState } from "react";
+import { useTranslations } from 'next-intl';
+import { Link } from '../../i18n/routing';
 
 export default function BurgerMenu() {
 	const [isSheetOpen, setIsSheetOpen] = useState(false);
@@ -15,6 +16,7 @@ export default function BurgerMenu() {
 	const handleLinkClick = () => {
 		setIsSheetOpen(false);
 	};
+	const t = useTranslations("NavMenu");
 	return (
 		<div className="flex items-center">
 			<Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
@@ -34,11 +36,11 @@ export default function BurgerMenu() {
 				</SheetTrigger>
 				<SheetContent>
 					<SheetHeader>
-						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/about-us">About us</Link></SheetTitle>
-						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/samples">Samples</Link></SheetTitle>
-						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/gallery">Gallery</Link></SheetTitle>
-						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/associates">Associates</Link></SheetTitle>
-						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/guestbook">Guestbook</Link></SheetTitle>
+						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/about-us">{t("aboutUs")}</Link></SheetTitle>
+						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/samples">{t("samples")}</Link></SheetTitle>
+						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/gallery">{t("gallery")}</Link></SheetTitle>
+						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/associates">{t("associates")}</Link></SheetTitle>
+						<SheetTitle><Link onClick={handleLinkClick} className="custom-font" href="/guestbook">{t("guestbook")}</Link></SheetTitle>
 					</SheetHeader>
 				</SheetContent>
 			</Sheet>

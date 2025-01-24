@@ -1,9 +1,11 @@
 import React from "react";
-import Hero from "./components/hero";
+import Hero from "../components/hero";
 import { Separator } from "@/components/ui/separator";
 
 import { Metadata } from "next";
-import PreviewKingOfLifeAndDeath from "./components/newsPreview/previewKingOvLifeAndDeath";
+import PreviewKingOfLifeAndDeath from "../components/newsPreview/previewKingOvLifeAndDeath";
+
+// import {useTranslations} from 'next-intl';
 
 export const metadata: Metadata = {
     title: "Plamen | Home Page",

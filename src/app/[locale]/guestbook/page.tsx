@@ -1,7 +1,9 @@
-import Form from "../components/form";
-import prisma from "../db";
+import Form from "../../components/form";
+import prisma from "../../db";
 
 import { Metadata } from "next";
+
+import { useTranslations } from "next-intl";
 
 export const metadata: Metadata = {
     title: "Plamen | Guestbook",
@@ -72,12 +74,14 @@ export const revalidate = 60;
 export default async function Guestbook() {
     const data = await getEntries();
 
+    const t = useTranslations("guestbook");
+
     return (
         <div className="custom-font w-full flex justify-center bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
             <div className="w-full max-w-[1200px] px-4 md:px-0">
                 <div className="space-y-2 pt-6 pb-8 md:space-y-5">
                     <h1 className="text-3xl text-gray-800 sm:text-4xl md:text-6xl leading-9 sm:leading-10 md:leading-14 tracking-tight">
-                        Guestbook
+                        {t("title")}
                     </h1>
                 </div>
                 <div className="w-full">

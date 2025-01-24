@@ -1,6 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
-import coverList from "../utils/albumList";
+import coverList from "../../utils/albumList";
+// import { useTranslations } from "next-intl";
+import { Link } from "../../../i18n/routing";
 
 import { Metadata } from "next";
 

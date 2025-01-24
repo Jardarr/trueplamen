@@ -7,6 +7,7 @@ import "swiper/css/zoom";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Zoom, Navigation, Pagination } from "swiper/modules";
+import { useTranslations } from "next-intl";
 
 type ImageData = {
     id: number;
@@ -23,7 +24,7 @@ type GalleryItem = {
     magick_of_blood?: ImageData[];
 };
 
-import galleryList from "../utils/galleryList";
+import galleryList from "../../utils/galleryList";
 import { Separator } from "@/components/ui/separator";
 
 export default function Gallery() {
@@ -54,12 +55,14 @@ export default function Gallery() {
         setModalOpen(false);
     };
 
+    const t = useTranslations("Gallery");
+
     return (
         <div className="custom-font flex justify-center pt-10 sm:py-7 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
             <div className="max-w-[1200px] w-full flex flex-col">
                 <div className="space-y-2 pl-4 pt-6 pb-8 md:space-y-5">
                     <h1 className="text-3xl text-gray-800 sm:text-4xl md:text-6xl leading-9 sm:leading-10 md:leading-14 tracking-tight">
-                        Gallery
+                        {t("title")}
                     </h1>
                 </div>
                 <div className="flex flex-col flex-wrap gap-3">

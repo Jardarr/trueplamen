@@ -1,11 +1,13 @@
-"use client";
-import Link from "next/link";
 import BandCamp from "./links/bandCamp";
 import YouTube from "./links/youTube";
 import MailLink from "./links/mailLink";
+import CopyrightInfo from "./copyrightInfo";
+
+import { useTranslations } from "next-intl";
+import { Link } from "../../i18n/routing";
 
 export default function Footer() {
-	const currentYear = new Date().getFullYear();
+	const t = useTranslations("NavMenu");
 	return (
 		<div className="custom-font flex flex-col lg:justify-between lg:flex-row md:text-xs text-gray-500 text-xs">
 			<div className="flex justify-center sm:justify-start flex-col">
@@ -16,7 +18,7 @@ export default function Footer() {
 							className="px-2 hover:text-gray-300"
 							href="/about-us"
 						>
-							About us
+							{t("aboutUs")}
 						</Link>
 					</div>
 					<div className="flex justify-center sm:justify-start items-center">
@@ -25,7 +27,7 @@ export default function Footer() {
 							className="px-2 hover:text-gray-300"
 							href="/samples"
 						>
-							Samples
+							{t("samples")}
 						</Link>
 					</div>
 					<div className="flex justify-center sm:justify-start items-center">
@@ -34,7 +36,7 @@ export default function Footer() {
 							className="px-2 hover:text-gray-300"
 							href="/gallery"
 						>
-							Gallery
+							{t("gallery")}
 						</Link>
 					</div>
 					<div className="flex justify-center sm:justify-start items-center flex-wrap">
@@ -43,7 +45,7 @@ export default function Footer() {
 							className="px-2 hover:text-gray-300"
 							href="/associates"
 						>
-							Associates
+							{t("associates")}
 						</Link>
 					</div>
 					<div className="flex justify-center sm:justify-start items-center flex-wrap">
@@ -52,14 +54,11 @@ export default function Footer() {
 							className="px-2 hover:text-gray-300"
 							href="/guestbook"
 						>
-							Guestbook
+							{t("guestbook")}
 						</Link>
 					</div>
 				</div>
-				<div className="w-full flex flex-col items-center sm:items-start px-2">
-					<span translate="no">&copy; {currentYear} Designed by Jardarr</span>
-					<span translate="no">&copy; {currentYear} All Rights Reserved</span>
-				</div>
+				<CopyrightInfo />
 			</div>
 			<div className="flex justify-center items-center lg:justify-end w-full text-center lg:w-1/3 gap-2">
 				<BandCamp />
@@ -68,4 +67,4 @@ export default function Footer() {
 			</div>
 		</div>
 	);
-}
+};
