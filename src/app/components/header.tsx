@@ -43,7 +43,7 @@ export default function Header() {
                     <Link
                         href="/gallery"
                         className={`${
-                            pathname === "en/gallery" || pathname === "/ru/gallery"
+                            pathname === "/en/gallery" || pathname === "/ru/gallery"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                                 : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                         }`}>
@@ -52,7 +52,7 @@ export default function Header() {
                     <Link
                         href="/associates"
                         className={`${
-                            pathname === "/associates" || pathname === "/ru/associates"
+                            pathname === "/en/associates" || pathname === "/ru/associates"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                                 : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                         }`}>
@@ -61,7 +61,7 @@ export default function Header() {
                     <Link
                         href="/guestbook"
                         className={`${
-                            pathname === "/guestbook" || pathname === "/ru/guestbook"
+                            pathname === "/en/guestbook" || pathname === "/ru/guestbook"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                                 : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                         }`}>

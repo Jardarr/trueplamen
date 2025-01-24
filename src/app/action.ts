@@ -12,5 +12,5 @@ export async function postEntry(formData: FormData) {
             username: "user",
         },
     });
-    revalidatePath("/guestbook");
+    revalidatePath("/en/guestbook");
 }
