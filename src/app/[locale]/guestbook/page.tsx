@@ -60,6 +60,7 @@ interface GuestbookEntry {
 }
 
 async function getEntries() {
+    
     const data = await prisma.guestbook.findMany({
         take: 15,
         orderBy: {
@@ -75,7 +76,6 @@ export default async function Guestbook() {
     const data = await getEntries();
 
     const t = useTranslations("guestbook");
-
     return (
         <div className="custom-font w-full flex justify-center bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
             <div className="w-full max-w-[1200px] px-4 md:px-0">
