@@ -8,7 +8,6 @@ type Props = {
 };
 
 export default function AboutUsActs({ title, stanza, description }: Props) {
-    // Очистка HTML с помощью DOMPurify
     const cleanStanza = DOMPurify.sanitize(stanza);
     const cleanDescription = DOMPurify.sanitize(description);
 

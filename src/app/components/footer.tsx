@@ -16,6 +16,7 @@ export default function Footer() {
 							translate="no"
 							className="px-2 hover:text-gray-300"
 							href="/about-us"
+							scroll={false}
 						>
 							{t("aboutUs")}
 						</Link>
@@ -25,6 +26,7 @@ export default function Footer() {
 							translate="no"
 							className="px-2 hover:text-gray-300"
 							href="/samples"
+							scroll={false}
 						>
 							{t("samples")}
 						</Link>
@@ -34,6 +36,7 @@ export default function Footer() {
 							translate="no"
 							className="px-2 hover:text-gray-300"
 							href="/gallery"
+							scroll={false}
 						>
 							{t("gallery")}
 						</Link>
@@ -43,6 +46,7 @@ export default function Footer() {
 							translate="no"
 							className="px-2 hover:text-gray-300"
 							href="/associates"
+							scroll={false}
 						>
 							{t("associates")}
 						</Link>
@@ -52,6 +56,7 @@ export default function Footer() {
 							translate="no"
 							className="px-2 hover:text-gray-300"
 							href="/guestbook"
+							scroll={false}
 						>
 							{t("guestbook")}
 						</Link>

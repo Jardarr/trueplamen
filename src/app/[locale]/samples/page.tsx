@@ -70,7 +70,7 @@ export default function Samples() {
 					const albumData = Album.find((a) => a.key === album.key);
                     return (
                         <div key={album.alt} className="cover-link h-fit bg-neutral-900/45 p-3 rounded-md">
-                            <Link href={album.link}>
+                            <Link href={album.link} scroll={false}>
                                 <Image className="rounded-md" src={album.image} alt={album.alt} width={300} height={300} />
                                 {albumData && (
                                     <>
