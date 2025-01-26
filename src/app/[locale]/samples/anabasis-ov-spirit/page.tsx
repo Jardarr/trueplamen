@@ -10,19 +10,12 @@ import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 
 import { useTranslations } from "next-intl";
-import DOMPurify from "isomorphic-dompurify";
 
-type Tracklist = {
-    tracklist: string;
-};
-
-const AnabasisOvSpirit = ({tracklist}: Tracklist) => {
+const AnabasisOvSpirit = () => {
     const t = useTranslations("Albums");
     const album = anabasisOvSpirit[0];
-    const cleanTracklist = DOMPurify.sanitize(tracklist);
     const audio = album.audio ?? "";
     const audioTitle = album.audioTitle ?? "";
-
     return (
         <div className="custom-font relative w-full flex flex-col items-center gap-8 pt-10 sm:justify-center pb-20 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
             <div className="max-w-[900px] w-full flex flex-col sm:flex-row">
@@ -41,7 +34,8 @@ const AnabasisOvSpirit = ({tracklist}: Tracklist) => {
                 </div>
                 <div className="flex flex-col text-gray-300 px-12 mt-3 sm:mt-0">
                     <AudioPlayer audio={audio} audioTitle={audioTitle} />
-                    <div className="mt-4" dangerouslySetInnerHTML={{ __html: cleanTracklist }}></div>
+                    <div className="mt-4">{album.trackRU}</div>
+                    <div className="mt-2">{album.trackEN}</div>
                     <h3 className="mt-4 underline hover:text-gray-400 transition-colors ease-in-out">
                         <a target="_blank" href={album.bcLink}>
                             {t("Bandcamp.listen")}
