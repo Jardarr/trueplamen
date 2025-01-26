@@ -1,5 +1,6 @@
 const albumList = [
 	{
+		key: "SeedsOvHell",
 		slug: "seeds-ov-hell",
 		link: "/samples/seeds-ov-hell",
 		alt: "seeds-ov-hell",
@@ -179,9 +180,10 @@ const albumList = [
 		],
 	},
 	{
+		key: "ForTheSun",
 		slug: "for-the-sun",
 		link: "/samples/for-the-sun",
-		alt: "to-the-sun",
+		alt: "for-the-sun",
 		image: "/covers/for-the-sun.jpg",
 		imageBIG: "/covers/for-the-sun-BIG.jpg",
 		titleRU: "Пламень - Солнцу (2013)",
@@ -557,11 +559,12 @@ const albumList = [
 		],
 	},
 	{
-		slug: "to-ashes",
-		link: "/samples/to-ashes",
-		alt: "to-ashes",
-		image: "/covers/to-ashes.jpg",
-		imageBIG: "/covers/to-ashes-BIG.jpg",
+		key: "ToTheDust",
+		slug: "to-the-dust",
+		link: "/samples/to-the-dust",
+		alt: "to-the-dust",
+		image: "/covers/to-the-dust.jpg",
+		imageBIG: "/covers/to-the-dust-BIG.jpg",
 		titleRU: "Пламень - В Пепел (2015)",
 		description:
 			"Plamen - To the Dust, released March 27, 2015. Plamen - black metal band from Saransk, Russia.",
@@ -1180,6 +1183,7 @@ const albumList = [
 		textEN: <></>,
 	},
 	{
+		key: "AnotherOnes",
 		slug: "another-ones",
 		link: "/samples/another-ones",
 		alt: "another-ones",
@@ -1824,11 +1828,12 @@ const albumList = [
 		],
 	},
 	{
-		slug: "anabasis-of-spirit",
-		link: "/samples/anabasis-of-spirit",
-		alt: "anabasis-of-spirit",
-		image: "/covers/anabasis-of-spirit.jpg",
-		imageBIG: "/covers/anabasis-of-spirit-BIG.jpg",
+		key: "AnabasisOvSpirit",
+		slug: "anabasis-ov-spirit",
+		link: "/samples/anabasis-ov-spirit",
+		alt: "anabasis-ov-spirit",
+		image: "/covers/anabasis-ov-spirit.jpg",
+		imageBIG: "/covers/anabasis-ov-spirit-BIG.jpg",
 		titleRU: "Пламень - Анабасис Духа (2020)",
 		description:
 			"Plamen - Anabasis ov Spirit, released July 11, 2020. Plamen - black metal band from Saransk, Russia.",
@@ -2585,11 +2590,12 @@ const albumList = [
 		],
 	},
 	{
-		slug: "magick-of-blood",
-		link: "/samples/magick-of-blood",
-		alt: "magick-of-blood",
-		image: "/covers/magick-of-blood.jpg",
-		imageBIG: "/covers/magick-of-blood-BIG.jpg",
+		key: "BloodMagic",
+		slug: "blood-magic",
+		link: "/samples/blood-magic",
+		alt: "blood-magic",
+		image: "/covers/blood-magic.jpg",
+		imageBIG: "/covers/blood-magic-BIG.jpg",
 		titleRU: "Пламень - Магия Крови (2022)",
 		description:
 			"Plamen - Blood Magic, released April 8, 2022. Plamen - black metal band from Saransk, Russia.",

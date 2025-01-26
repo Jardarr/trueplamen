@@ -1,67 +1,99 @@
 {
-    "NavMenu": {
-        "aboutUs": "About Us",
-        "samples": "Samples",
-        "gallery": "Gallery",
-        "associates": "Associates",
-        "guestbook": "Guestbook"
-    },
-    "AboutUs": {
-        "title": "About Us",
-        "acts": {
-            "act1": {
-                "title": "Act 1.",
-                "stanza": "&quot;Death is just the Beginning&quot;",
-                "description": "It all started in 2006, in the heart of starlight night, when two man record a demo tape called &quot;Return to Death&quot; - a raw narrative using a crude drum machine, but filled with the sincerity of the participants. The demo distributed among a close circle of people involved in the black metal underground."
+	"NavMenu": {
+		"aboutUs": "About Us",
+		"samples": "Samples",
+		"gallery": "Gallery",
+		"associates": "Associates",
+		"guestbook": "Guestbook"
+	},
+	"AboutUs": {
+		"title": "About Us",
+		"acts": {
+			"act1": {
+				"title": "Act 1.",
+				"stanza": "&quot;Death is just the Beginning&quot;",
+				"description": "It all started in 2006, in the heart of starlight night, when two man record a demo tape called &quot;Return to Death&quot; - a raw narrative using a crude drum machine, but filled with the sincerity of the participants. The demo distributed among a close circle of people involved in the black metal underground."
+			},
+			"act2": {
+				"title": "Act 2.",
+				"stanza": "&quot;Fervent in Spirit, Serving the Lord&quot;",
+				"description": "EP &quot;Seeds ov Hell&quot; was created in 2008, but found its physical embodiment in 2011 by the forces of the Belarus label &quot;Aeon of Horus&quot; of the &quot;Niemarač Clan&quot;. A succinct statement with the trends of the French black metal scene, consisting of three main compositions."
+			},
+			"act3": {
+				"title": "Act 3.",
+				"stanza": "&quot;You came into the world to burn in the Sun of Fortress and the stronger evil the brighter the Flame of Pure Hearts&quot;",
+				"description": "The first LP &quot;To the Sun&quot; of 2013 marked the beginning of the collaboration with the music label &quot;Thou Shalt Kill!&quot;. The acquisition of his own emphasize on this album already takes place. From now on, the compositions are performed in Russian."
+			},
+			"act4": {
+				"title": "Act 4.",
+				"stanza": "&quot;By Spirit and Blood, with Flame in the Heart&quot;",
+				"description": "The most musically experimental LP &quot;To the Dust&quot; is the next stage of the band&#8216;s development. The album saw the light in 2015. Stylistically this act is an intertwining of dark rock, doom and black metal. A dark horse in our discography."
+			},
+			"act5": {
+				"title": "Act 5.",
+				"stanza": "&quot;Smoke of black souls, flame of vermilion tongues.<br />Temples are filling with ashes of the burning hearts.<br />Scars-pathways lead beyond heavenly threshold<br />The breed of another ones doomed to wanderings...&quot;",
+				"description": "LP &quot;Another Ones&quot; 2017 returns the musical compositions to the canvas of black metal. Composed in a unified style, the compositions are saturated with new techniques without losing the developments of former accomplishments."
+			},
+			"act6": {
+				"title": "Act 6.",
+				"stanza": "&quot;A song is a fire that is dangerous to joke with. Song is not a game, but a sacred act. Let in this songs chaos, the cry of a lonely soul, the boiling of dark forces - let them! For the breath of God is not in silence, but in storms.&quot;",
+				"description": "The religious album &quot;Anabasis ov Spirit&quot;, consisting of seven proclamations, is the quintessence of the creators inner torments. Released in 2020 by the label &quot;Thou Shalt Kill!&quot;, it is currently the most personal act among the other works."
+			},
+			"act7": {
+				"title": "Act 7.",
+				"stanza": "&quot;By Blood Magic crush false idols in True Greatness!&quot;",
+				"description": "In 2022 was released &quot;Blood Magic&quot;. For the first time, keyboard instruments were used in the recording to give the compositions extra atmosphere. With the latest album, Plamen marks the 15th anniversary of the band&#8216;s existence."
+			},
+			"act8": {
+				"title": "Act 8.",
+				"stanza": "&quot;Coming Soon...&quot;",
+				"description": ""
+			}
+		}
+	},
+	"Gallery": {
+		"title": "Gallery"
+	},
+	"Associates": {
+		"title": "Associates"
+	},
+	"Guestbook": {
+		"title": "Guestbook"
+	},
+	"KingPreview": {
+		"title": "Two years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King ov Life and Death&quot;...",
+		"more": "see more..."
+	},
+	"Albums": {
+		"Release": {
+			"SeedsOvHell": {
+				"title": "Seeds ov Hell",
+				"description": "released September 14, 2018."
+			},
+			"ForTheSun": {
+				"title": "For the Sun",
+				"description": "released May 11, 2013."
+			},
+			"ToTheDust": {
+				"title": "To the Dust",
+				"description": "released March 27, 2015."
+			},
+			"AnotherOnes": {
+				"title": "Another Ones",
+				"description": "released November 30, 2017."
+			},
+			"AnabasisOvSpirit": {
+				"title": "Anabasis ov Spirit",
+				"description": "released July 11, 2020.",
+                "tracklist": "<ul className=\"text-sm font-thin\"><li><i>1. The North (Proclamation)</i></li><li><i>2. The Night (Revelation)</i></li><li><i>3. The Mystery (Comprehension)</i></li><li><i>4. The Demise (Valediction)</i></li><li><i>5. The Flame (Quintessence)</i></li><li><i>6. The Sacrifice (Recantation)</i></li><li><i>7. The Cycle (Overcoming)</i></li></ul>"
             },
-            "act2": {
-                "title": "Act 2.",
-                "stanza": "&quot;Fervent in Spirit, Serving the Lord&quot;",
-                "description": "EP &quot;Seeds ov Hell&quot; was created in 2008, but found its physical embodiment in 2011 by the forces of the Belarus label &quot;Aeon of Horus&quot; of the &quot;Niemarač Clan&quot;. A succinct statement with the trends of the French black metal scene, consisting of three main compositions."
-            },
-            "act3": {
-                "title": "Act 3.",
-                "stanza": "&quot;You came into the world to burn in the Sun of Fortress and the stronger evil the brighter the Flame of Pure Hearts&quot;",
-                "description": "The first LP &quot;To the Sun&quot; of 2013 marked the beginning of the collaboration with the music label &quot;Thou Shalt Kill!&quot;. The acquisition of his own emphasize on this album already takes place. From now on, the compositions are performed in Russian."
-            },
-            "act4": {
-                "title": "Act 4.",
-                "stanza": "&quot;By Spirit and Blood, with Flame in the Heart&quot;",
-                "description": "The most musically experimental LP &quot;To the Dust&quot; is the next stage of the band&#8216;s development. The album saw the light in 2015. Stylistically this act is an intertwining of dark rock, doom and black metal. A dark horse in our discography."
-            },
-            "act5": {
-                "title": "Act 5.",
-                "stanza": "&quot;Smoke of black souls, flame of vermilion tongues.<br />Temples are filling with ashes of the burning hearts.<br />Scars-pathways lead beyond heavenly threshold<br />The breed of another ones doomed to wanderings...&quot;",
-                "description": "LP &quot;Another Ones&quot; 2017 returns the musical compositions to the canvas of black metal. Composed in a unified style, the compositions are saturated with new techniques without losing the developments of former accomplishments."
-            },
-            "act6": {
-                "title": "Act 6.",
-                "stanza": "&quot;A song is a fire that is dangerous to joke with. Song is not a game, but a sacred act. Let in this songs chaos, the cry of a lonely soul, the boiling of dark forces - let them! For the breath of God is not in silence, but in storms.&quot;",
-                "description": "The religious album &quot;Anabasis ov Spirit&quot;, consisting of seven proclamations, is the quintessence of the creators inner torments. Released in 2020 by the label &quot;Thou Shalt Kill!&quot;, it is currently the most personal act among the other works."
-            },
-            "act7": {
-                "title": "Act 7.",
-                "stanza": "&quot;By Blood Magic crush false idols in True Greatness!&quot;",
-                "description": "In 2022 was released &quot;Blood Magic&quot;. For the first time, keyboard instruments were used in the recording to give the compositions extra atmosphere. With the latest album, Plamen marks the 15th anniversary of the band&#8216;s existence."
-            },
-            "act8": {
-                "title": "Act 8.",
-                "stanza": "&quot;Coming Soon...&quot;",
-                "description": ""
-            }
+			"BloodMagic": {
+				"title": "Blood Magic",
+				"description": "released April 8, 2022."
+			}
+		},
+        "Bandcamp": {
+        "listen": "listen on Bandcamp"
         }
-    },
-    "Gallery": {
-        "title": "Gallery"
-    },
-    "Associates": {
-        "title": "Associates"
-    },
-    "Guestbook": {
-        "title": "Guestbook"
-    },
-    "KingPreview": {
-        "title": "Two years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King ov Life and Death&quot;...",
-        "more": "see more..."
-    }
+	}
 }

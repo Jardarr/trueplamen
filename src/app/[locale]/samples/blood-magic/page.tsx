@@ -1,5 +1,5 @@
 import AudioPlayer from "@/src/app/components/audioPlayer";
-import albumList from "@/src/app/utils/albumList";
+import bloodMagic from "./bloodMagic.utils";
 import {
     Accordion,
     AccordionContent,
@@ -7,42 +7,18 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
-import Head from "next/head";
 import Image from "next/image";
 
-interface AlbumProps {
-    params: {
-        slug: string;
-    };
-}
-
-export async function generateStaticParams() {
-    return albumList.map((item) => ({
-        slug: item.slug,
-    }));
-}
-
-const Album = ({ params }: AlbumProps) => {
-    const { slug } = params;
-
-    const album = albumList.find((item) => item.slug === slug);
-
-    if (!album) {
-        return <div>Album not found</div>;
-    }
+import { useTranslations } from "next-intl";
+const BloodMagic = () => {
+    const t = useTranslations("Albums");
+    const album = bloodMagic[0];
 
     const audio = album.audio ?? "";
     const audioTitle = album.audioTitle ?? "";
 
     return (
         <div className="custom-font relative w-full flex flex-col items-center gap-8 pt-10 sm:justify-center pb-20 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
-            <Head>
-                <title>{album.titleEN}</title>
-                <meta name="description" content={album.description} />
-                <meta property="og:title" content={album.titleRU} />
-                <meta property="og:description" content={album.description} />
-                <meta property="og:image" content={album.image} />
-            </Head>
             <div className="max-w-[900px] w-full flex flex-col sm:flex-row">
                 <div className="flex flex-col items-center bg-neutral-800/45 p-3 rounded-md">
                     <Image
@@ -52,9 +28,9 @@ const Album = ({ params }: AlbumProps) => {
                         height={500}
                         className="rounded-md px-12 md:px-0 flex-1"
                     />
-                    <h1 className="text-gray-300 text-base">{album.titleRU}</h1>
+                    <h1 className="text-gray-300 text-base">{t(`Release.BloodMagic.title`)}</h1>
                     <h2 className="text-gray-400 text-sm text-center font-thin">
-                        {album.titleEN}
+                        {t("Release.BloodMagic.description")}
                     </h2>
                 </div>
                 <div className="flex flex-col text-gray-300 px-12 mt-3 sm:mt-0">
@@ -63,15 +39,13 @@ const Album = ({ params }: AlbumProps) => {
                     <div className="mt-2">{album.trackEN}</div>
                     <h3 className="mt-4 underline hover:text-gray-400 transition-colors ease-in-out">
                         <a target="_blank" href={album.bcLink}>
-                            Слушать на Bandcamp
+                            {t("Bandcamp.listen")}
                         </a>
                     </h3>
                 </div>
             </div>
             <Separator className="my-12 sm:max-w-7xl max-w-72 mx-auto" />
             <div className="max-w-[900px] w-full">
-                {/* <div>{album.textRU}</div>
-				<div>{album.textEN}</div> */}
                 {album.texts ? (
                     album.texts.map((text, index) => (
                         <Accordion key={index} type="single" collapsible>
@@ -96,4 +70,4 @@ const Album = ({ params }: AlbumProps) => {
     );
 };
 
-export default Album;
+export default BloodMagic;
