@@ -2,6 +2,7 @@ import Image from "next/image";
 import albumList from "../../utils/albumList";
 import { useTranslations } from "next-intl";
 import { Link } from "../../../i18n/routing";
+import { getAlbumsData } from "../../utils/albumData";
 
 import { Metadata } from "next";
 
@@ -53,23 +54,11 @@ export const metadata: Metadata = {
 	},
 };
 
-interface AlbumDataProps {
-	t: (key: string) => string;
-}
-export function getAlbumsData({ t }: AlbumDataProps) {
-	return [
-		{ key: "SeedsOvHell", title: t("Release.SeedsOvHell.title"), description: t("Release.SeedsOvHell.description") },
-		{ key: "ForTheSun", title: t("Release.ForTheSun.title"), description: t("Release.ForTheSun.description") },
-		{ key: "ToTheDust", title: t("Release.ToTheDust.title"), description: t("Release.ToTheDust.description") },
-		{ key: "AnotherOnes", title: t("Release.AnotherOnes.title"), description: t("Release.AnotherOnes.description") },
-		{ key: "AnabasisOvSpirit", title: t("Release.AnabasisOvSpirit.title"), description: t("Release.AnabasisOvSpirit.description") },
-		{ key: "BloodMagic", title: t("Release.BloodMagic.title"), description: t("Release.BloodMagic.description") },
-	];
-}
+
 
 export default function Samples() {
 	const t = useTranslations("Albums");
-	const Album = getAlbumsData({ t });
+	const Album = getAlbumsData( t );
 	return (
         <div className="custom-font relative flex justify-center pt-10 sm:py-7 gap-3 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
             <div className="cover-box max-w-[1200px] flex justify-center flex-wrap gap-3">
