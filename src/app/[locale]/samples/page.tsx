@@ -53,7 +53,10 @@ export const metadata: Metadata = {
 	},
 };
 
-export function getAlbumsData(t: (key: string) => string) {
+interface AlbumDataProps {
+	t: (key: string) => string;
+}
+export function getAlbumsData({ t }: AlbumDataProps) {
 	return [
 		{ key: "SeedsOvHell", title: t("Release.SeedsOvHell.title"), description: t("Release.SeedsOvHell.description") },
 		{ key: "ForTheSun", title: t("Release.ForTheSun.title"), description: t("Release.ForTheSun.description") },
@@ -66,7 +69,7 @@ export function getAlbumsData(t: (key: string) => string) {
 
 export default function Samples() {
 	const t = useTranslations("Albums");
-	const Album = getAlbumsData(t);
+	const Album = getAlbumsData({ t });
 	return (
         <div className="custom-font relative flex justify-center pt-10 sm:py-7 gap-3 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
             <div className="cover-box max-w-[1200px] flex justify-center flex-wrap gap-3">
