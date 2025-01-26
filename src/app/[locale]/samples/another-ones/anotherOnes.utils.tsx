@@ -1,85 +1,11 @@
 const anotherOnes = [
 	{
 		key: "AnotherOnes",
-		slug: "another-ones",
-		link: "/samples/another-ones",
 		alt: "another-ones",
-		image: "/covers/another-ones.jpg",
 		imageBIG: "/covers/another-ones-BIG.jpg",
-		titleRU: "Пламень - Чужие (2017)",
-		description: "Plamen - Another Ones, released November 30, 2017. Plamen - black metal band from Saransk, Russia.",
-		titleEN: (
-			<span>
-				(Plamen - Another Ones)
-				<br />
-				released November 30, 2017
-			</span>
-		),
 		audio: "/music/plamen-song_of_the_fallen_heart.mp3",
 		audioTitle: "Пламень - Песнь Падшего Сердца",
 		bcLink: "https://plamen.bandcamp.com/album/another-ones",
-		trackRU: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. Мы</i>
-				</li>
-				<li>
-					<i>2. В Потустороннее...</i>
-				</li>
-				<li>
-					<i>3. Одержимость</i>
-				</li>
-				<li>
-					<i>4. У Врат Вечной Ночи</i>
-				</li>
-				<li>
-					<i>5. Крепости Истины</i>
-				</li>
-				<li>
-					<i>6. Пилигрим</i>
-				</li>
-				<li>
-					<i>7. Песнь Падшего Сердца</i>
-				</li>
-				<li>
-					<i>8. Скалы Солнца</i>
-				</li>
-				<li>
-					<i>9. Эхо Пожаров</i>
-				</li>
-			</ul>
-		),
-		trackEN: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. We Are</i>
-				</li>
-				<li>
-					<i>2. Into the Otherworldly...</i>
-				</li>
-				<li>
-					<i>3. Possession</i>
-				</li>
-				<li>
-					<i>4. At the Gates of Night Eternal</i>
-				</li>
-				<li>
-					<i>5. Strongholds of Truth</i>
-				</li>
-				<li>
-					<i>6. The Pilgrim</i>
-				</li>
-				<li>
-					<i>7. Hymn of the Fallen Heart</i>
-				</li>
-				<li>
-					<i>8. Cliffs of the Sun</i>
-				</li>
-				<li>
-					<i>9. Echoes of Fires</i>
-				</li>
-			</ul>
-		),
 		texts: [
 			{
 				songTitle: "Мы | We Are",

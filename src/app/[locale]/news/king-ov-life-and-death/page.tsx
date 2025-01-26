@@ -1,18 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import { Metadata } from "next";
 import { ChevronRight } from "lucide-react";
+import type { Viewport } from "next";
+
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1,
+	maximumScale: 1,
+	userScalable: false,
+    themeColor: 'black',
+};
 
 export const metadata: Metadata = {
     title: "Plamen | King ov Life and Death",
-    description: "Plamen | King ov Life and Death. New album of the band Plamen coming soon",
+    description: "King ov Life and Death. New album of the band Plamen coming soon",
     keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
     authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
     applicationName: "Plamen Official",
     openGraph: {
         title: "Plamen | King ov Life and Death",
-        description: "Plamen | King ov Life and Death. New album of the band Plamen coming soon",
+        description: "King ov Life and Death. New album of the band Plamen coming soon",
         url: "https://plamenband.ru",
         siteName: "Plamen Official",
         images: [
@@ -29,11 +37,9 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Plamen | King ov Life and Death",
-        description: "Plamen | King ov Life and Death. New album of the band Plamen coming soon",
+        description: "King ov Life and Death. New album of the band Plamen coming soon",
         images: ["/og-logo-king.jpg"],
     },
-    viewport: "width=device-width, initial-scale=1",
-    themeColor: "#000000",
     robots: {
         index: true,
         follow: true,

@@ -1,85 +1,11 @@
 const toTheDust = [
 	{
 		key: "ToTheDust",
-		slug: "to-the-dust",
-		link: "/samples/to-the-dust",
 		alt: "to-the-dust",
-		image: "/covers/to-the-dust.jpg",
 		imageBIG: "/covers/to-the-dust-BIG.jpg",
-		titleRU: "Пламень - В Пепел (2015)",
-		description: "Plamen - To the Dust, released March 27, 2015. Plamen - black metal band from Saransk, Russia.",
-		titleEN: (
-			<span>
-				(Plamen - To the Dust)
-				<br />
-				released March 27, 2015
-			</span>
-		),
 		audio: "/music/plamen-reich_of_emptiness.mp3",
 		audioTitle: "Пламень - Рейх Пустоты",
 		bcLink: "https://plamen.bandcamp.com/album/to-the-dust",
-		trackRU: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. Начало</i>
-				</li>
-				<li>
-					<i>2. Вся Вера Здесь!</i>
-				</li>
-				<li>
-					<i>3. В Великом Холодном Огне</i>
-				</li>
-				<li>
-					<i>4. -</i>
-				</li>
-				<li>
-					<i>5. Свет</i>
-				</li>
-				<li>
-					<i>6. Пробуждение Крови</i>
-				</li>
-				<li>
-					<i>7. Сыны Пламени</i>
-				</li>
-				<li>
-					<i>8. Я Постигшее</i>
-				</li>
-				<li>
-					<i>9. Рейх Пустоты</i>
-				</li>
-			</ul>
-		),
-		trackEN: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. Origination</i>
-				</li>
-				<li>
-					<i>2. All Faith is Here!</i>
-				</li>
-				<li>
-					<i>3. In Great Cold Fire</i>
-				</li>
-				<li>
-					<i>4. -</i>
-				</li>
-				<li>
-					<i>5. The Shine</i>
-				</li>
-				<li>
-					<i>6. Awakening of Blood</i>
-				</li>
-				<li>
-					<i>7. Sons of the Flame</i>
-				</li>
-				<li>
-					<i>8. Cognition of the I</i>
-				</li>
-				<li>
-					<i>9. Reich of Emptiness</i>
-				</li>
-			</ul>
-		),
 		texts: [
 			{
 				songTitle: "Н​а​ч​а​л​о | Origination",

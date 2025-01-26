@@ -4,7 +4,6 @@ import Image from "next/image";
 import BurgerMenu from "./burgerMenu";
 import { usePathname } from "next/navigation";
 import LanguageSwitcher from "./languageSwitcher";
-
 import { useTranslations } from "next-intl";
 import { Link } from "../../i18n/routing";
 

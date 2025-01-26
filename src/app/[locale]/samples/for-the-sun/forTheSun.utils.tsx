@@ -1,91 +1,11 @@
 const forTheSun = [
 	{
 		key: "ForTheSun",
-		slug: "for-the-sun",
-		link: "/samples/for-the-sun",
 		alt: "for-the-sun",
-		image: "/covers/for-the-sun.jpg",
 		imageBIG: "/covers/for-the-sun-BIG.jpg",
-		titleRU: "Пламень - Солнцу (2013)",
-		description: "Plamen - For the Sun, released May 11, 2013. Plamen - black metal band from Saransk, Russia.",
-		titleEN: (
-			<span>
-				(Plamen - For the Sun)
-				<br />
-				released May 11, 2013
-			</span>
-		),
 		audio: "/music/plamen-catharsis.mp3",
 		audioTitle: "Пламень - Катарсис",
 		bcLink: "https://plamen.bandcamp.com/album/for-the-sun",
-		trackRU: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. В Преддверии Божественного...</i>
-				</li>
-				<li>
-					<i>2. В Служении Предвечному</i>
-				</li>
-				<li>
-					<i>3. Звезда Погибели</i>
-				</li>
-				<li>
-					<i>4. Катарсис</i>
-				</li>
-				<li>
-					<i>5. Рождение Скорби</i>
-				</li>
-				<li>
-					<i>6. Рунами Руины</i>
-				</li>
-				<li>
-					<i>7. Лепра Моей Души</i>
-				</li>
-				<li>
-					<i>8. Претворения</i>
-				</li>
-				<li>
-					<i>9. Путем Черной Воли</i>
-				</li>
-				<li>
-					<i>10. В Пучинах Небытия...</i>
-				</li>
-			</ul>
-		),
-		trackEN: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. Before the Divine</i>
-				</li>
-				<li>
-					<i>2. In Worship to Eternal</i>
-				</li>
-				<li>
-					<i>3. Star of Doom</i>
-				</li>
-				<li>
-					<i>4. Catharsis</i>
-				</li>
-				<li>
-					<i>5. Birth of Sorrow</i>
-				</li>
-				<li>
-					<i>6. Carrion of My Soul</i>
-				</li>
-				<li>
-					<i>7. Ruins by Runes</i>
-				</li>
-				<li>
-					<i>8. The Incarnations</i>
-				</li>
-				<li>
-					<i>9. by Path of the Black Will</i>
-				</li>
-				<li>
-					<i>10. In The Depths of Non-existence</i>
-				</li>
-			</ul>
-		),
 		texts: [
 			{
 				songTitle: "В Преддверии Божественного... | Before the Divine...",

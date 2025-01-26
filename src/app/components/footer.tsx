@@ -2,7 +2,6 @@ import BandCamp from "./links/bandCamp";
 import YouTube from "./links/youTube";
 import MailLink from "./links/mailLink";
 import CopyrightInfo from "./copyrightInfo";
-
 import { useTranslations } from "next-intl";
 import { Link } from "../../i18n/routing";
 

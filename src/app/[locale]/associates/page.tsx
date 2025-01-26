@@ -1,20 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import { Metadata } from "next";
-
 import { useTranslations } from "next-intl";
+import type { Viewport } from "next";
+
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1,
+	maximumScale: 1,
+	userScalable: false,
+    themeColor: 'black',
+};
 
 export const metadata: Metadata = {
     title: "Plamen | Associates",
-    description: "Plamen | Associates. Black Metal band from Mordor, created in 2006.",
+    description: "Associates. Black Metal band from Mordor, created in 2006.",
     keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
     authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
     applicationName: "Plamen Official",
     openGraph: {
         title: "Plamen | Associates - Black Metal band from Mordor",
         description:
-            "Plamen | Associates. Official website of the Black Metal band Plamen, created in 2006.",
+            "Associates. Official website of the Black Metal band Plamen, created in 2006.",
         url: "https://plamenband.ru",
         siteName: "Plamen Official",
         images: [
@@ -31,11 +38,9 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Plamen | Associates. Plamen - Black Metal band from Mordor",
-        description: "Plamen | Associates. Visit the official website of the band Plamen.",
+        description: "Associates. Visit the official website of the band Plamen.",
         images: ["/og-logo.jpg"],
     },
-    viewport: "width=device-width, initial-scale=1",
-    themeColor: "#000000",
     robots: {
         index: true,
         follow: true,

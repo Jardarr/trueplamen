@@ -1,73 +1,11 @@
 const anabasisOvSpirit = [
 	{
 		key: "AnabasisOvSpirit",
-		slug: "anabasis-ov-spirit",
-		link: "/samples/anabasis-ov-spirit",
 		alt: "anabasis-ov-spirit",
-		image: "/covers/anabasis-ov-spirit.jpg",
 		imageBIG: "/covers/anabasis-ov-spirit-BIG.jpg",
-		titleRU: "Пламень - Анабасис Духа (2020)",
-		description: "Plamen - Anabasis ov Spirit, released July 11, 2020. Plamen - black metal band from Saransk, Russia.",
-		titleEN: (
-			<span>
-				(Plamen - Anabasis ov Spirit)
-				<br />
-				released July 11, 2020
-			</span>
-		),
 		audio: "/music/plamen-cycle_overcoming.mp3",
 		audioTitle: "Пламень - Цикл (Преодоление)",
 		bcLink: "https://plamen.bandcamp.com/album/anabasis-ov-spirit",
-		trackRU: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. Север (Воззвание)</i>
-				</li>
-				<li>
-					<i>2. Ночь (Откровение)</i>
-				</li>
-				<li>
-					<i>3. Мистерия (Постижение)</i>
-				</li>
-				<li>
-					<i>4. Исход (Прощание)</i>
-				</li>
-				<li>
-					<i>5. Пламя (Квинтэссенция)</i>
-				</li>
-				<li>
-					<i>6. Жертва (Отречение)</i>
-				</li>
-				<li>
-					<i>7. Цикл (Преодоление)</i>
-				</li>
-			</ul>
-		),
-		trackEN: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. The North (Proclamation)</i>
-				</li>
-				<li>
-					<i>2. The Night (Revelation)</i>
-				</li>
-				<li>
-					<i>3. The Mystery (Comprehension)</i>
-				</li>
-				<li>
-					<i>4. The Demise (Valediction)</i>
-				</li>
-				<li>
-					<i>5. The Flame (Quintessence)</i>
-				</li>
-				<li>
-					<i>6. The Sacrifice (Recantation)</i>
-				</li>
-				<li>
-					<i>7. The Cycle (Overcoming)</i>
-				</li>
-			</ul>
-		),
 		texts: [
 			{
 				songTitle: "С​е​в​е​р (​В​о​з​з​в​а​н​и​е​) | The North (Proclamation)",

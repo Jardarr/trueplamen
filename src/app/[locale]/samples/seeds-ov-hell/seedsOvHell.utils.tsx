@@ -1,43 +1,11 @@
 const seedsOvHell = [
 	{
-		slug: "seeds-ov-hell",
-		link: "/samples/seeds-ov-hell",
+		key: "SeedsOvHell",
 		alt: "seeds-ov-hell",
-		image: "/covers/seeds-ov-hell.jpg",
 		imageBIG: "/covers/seeds-ov-hell-BIG.jpg",
-		titleRU: "Пламень - Seeds ov Hell (2011)",
-		description: "Plamen - Seeds ov Hell, released September 14, 2018. Plamen - black metal band from Saransk, Russia.",
-		titleEN: (
-			<span>
-				(Plamen - Seeds ov Hell)
-				<br />
-				released April 8, 2011
-			</span>
-		),
 		audio: "/music/plamen-servants-ov-nothing.mp3",
 		audioTitle: "Пламень - Servants ov Nothing",
 		bcLink: "https://plamen.bandcamp.com/album/seeds-ov-hell-unreleased-mix",
-		trackRU: (
-			<ul className="text-sm font-thin">
-				<li></li>
-			</ul>
-		),
-		trackEN: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. Prelude</i>
-				</li>
-				<li>
-					<i>2. Servants ov Nothing</i>
-				</li>
-				<li>
-					<i>3. Seeds ov Hell​/​Rising!</i>
-				</li>
-				<li>
-					<i>4. An Ode to my Legions</i>
-				</li>
-			</ul>
-		),
 		texts: [
 			{
 				songTitle: "Prelude",

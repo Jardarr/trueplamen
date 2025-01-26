@@ -1,15 +1,12 @@
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import DOMPurify from "isomorphic-dompurify";
-
 import { useTranslations } from "next-intl";
 import { Link } from "../../../i18n/routing";
 
 export default function PreviewKingOvLifeAndDeath() {
     const t = useTranslations("KingPreview");
-    // Очистка HTML с помощью DOMPurify
     const cleanTitle = DOMPurify.sanitize(t("title"));
-
     return (
         <div className="custom-font w-full max-w-[1000px] pt-10 sm:py-7 gap-3">
             <div className="news-box bg-neutral-900 rounded-md">

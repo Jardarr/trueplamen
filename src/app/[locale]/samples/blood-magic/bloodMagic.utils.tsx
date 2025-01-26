@@ -1,61 +1,11 @@
 const bloodMagic = [
 	{
 		key: "BloodMagic",
-		slug: "blood-magic",
-		link: "/samples/blood-magic",
 		alt: "blood-magic",
-		image: "/covers/blood-magic.jpg",
 		imageBIG: "/covers/blood-magic-BIG.jpg",
-		titleRU: "Пламень - Магия Крови (2022)",
-		description: "Plamen - Blood Magic, released April 8, 2022. Plamen - black metal band from Saransk, Russia.",
-		titleEN: (
-			<span>
-				(Plamen - Blood Magic)
-				<br />
-				released April 8, 2022
-			</span>
-		),
 		audio: "/music/plamen-blood_magic.mp3",
 		audioTitle: "Пламень - Магия Крови",
 		bcLink: "https://plamen.bandcamp.com/album/blood-magic",
-		trackRU: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. Внутри ΑΩ</i>
-				</li>
-				<li>
-					<i>2. Ритуал</i>
-				</li>
-				<li>
-					<i>3. Пророчество</i>
-				</li>
-				<li>
-					<i>4. Магия Крови</i>
-				</li>
-				<li>
-					<i>5. Дар</i>
-				</li>
-			</ul>
-		),
-		trackEN: (
-			<ul className="text-sm font-thin">
-				<li>
-					<i>1. Inside ΑΩ</i>
-				</li>
-				<li>
-					<i>2. The Ritual</i>
-				</li>
-				<li>
-					<i>3. Prophecy</i>
-				</li>
-				<li>
-					<i>4. Blood Magic</i>
-				</li>
-				<li>
-					<i>5. The Gift</i>
-				</li>
-			</ul>
-		),
 		texts: [
 			{
 				songTitle: "Внутри A и Ω | Inside A and Ω",

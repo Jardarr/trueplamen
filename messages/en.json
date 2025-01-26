@@ -68,19 +68,23 @@
 		"Release": {
 			"SeedsOvHell": {
 				"title": "Seeds ov Hell",
-				"description": "released September 14, 2018."
+				"description": "released September 14, 2018.",
+				"tracklist": "1. Prelude<br /> 2. Servants ov Nothing<br /> 3. Seeds ov Hell​/​Rising!<br /> 4. An Ode to my Legions"
 			},
 			"ForTheSun": {
 				"title": "For the Sun",
-				"description": "released May 11, 2013."
+				"description": "released May 11, 2013.",
+				"tracklist": "1. Before the Divine<br /> 2. In Worship to Eternal<br /> 3. Star of Doom<br /> 4. Catharsis<br /> 5. Birth of Sorrow<br /> 6. Carrion of My Soul<br /> 7. Ruins by Runes<br /> 8. The Incarnations<br /> 9. by Path of the Black Will<br /> 10. In The Depths of Non-existence"
 			},
 			"ToTheDust": {
 				"title": "To the Dust",
-				"description": "released March 27, 2015."
+				"description": "released March 27, 2015.",
+				"tracklist": "1. Origination<br /> 2. All Faith is Here!<br /> 3. In Great Cold Fire<br /> 4. -<br /> 5. The Shine<br /> 6. Awakening of Blood<br /> 7. Sons of the Flame<br /> 8. Cognition of the I<br /> 9. Reich of Emptiness"
 			},
 			"AnotherOnes": {
 				"title": "Another Ones",
-				"description": "released November 30, 2017."
+				"description": "released November 30, 2017.",
+				"tracklist": "1. We Are<br /> 2. Into the Otherworldly...<br /> 3. Possession<br /> 4. At the Gates of Night Eternal<br /> 5. Strongholds of Truth<br /> 6. The Pilgrim<br /> 7. Hymn of the Fallen Heart<br /> 8. Cliffs of the Sun<br /> 9. Echoes of Fires"
 			},
 			"AnabasisOvSpirit": {
 				"title": "Anabasis ov Spirit",
@@ -89,7 +93,8 @@
             },
 			"BloodMagic": {
 				"title": "Blood Magic",
-				"description": "released April 8, 2022."
+				"description": "released April 8, 2022.",
+				"tracklist": "1. Inside ΑΩ<br /> 2. The Ritual<br /> 3. Prophecy<br /> 4. Blood Magic<br /> 5. The Gift"
 			}
 		},
         "Bandcamp": {

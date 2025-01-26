@@ -4,11 +4,19 @@ import "../globals.css";
 import "../styles/index.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
-
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "../../i18n/routing";
+import type { Viewport } from "next";
+
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1,
+	maximumScale: 1,
+	userScalable: false,
+    themeColor: 'black',
+};
 
 const geistSans = localFont({
     src: "../fonts/GeistVF.woff",
@@ -59,8 +67,6 @@ export const metadata: Metadata = {
         description: "Plamen | Official. Visit the official website of the band Plamen.",
         images: ["/og-logo.jpg"],
     },
-    viewport: "width=device-width, initial-scale=1",
-    themeColor: "#000000",
     robots: {
         index: true,
         follow: true,
