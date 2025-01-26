@@ -3,8 +3,16 @@ import albumList from "../../utils/albumList";
 import { useTranslations } from "next-intl";
 import { Link } from "../../../i18n/routing";
 import { getAlbumsData } from "../../utils/albumData";
-
 import { Metadata } from "next";
+import type { Viewport } from "next";
+
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1,
+	maximumScale: 1,
+	userScalable: false,
+    themeColor: 'black',
+};
 
 export const metadata: Metadata = {
 	title: "Plamen | Samples",
@@ -34,8 +42,6 @@ export const metadata: Metadata = {
 		description: "Plamen | Samples. Visit the official website of the band Plamen.",
 		images: ["/og-logo.jpg"],
 	},
-	viewport: "width=device-width, initial-scale=1",
-	themeColor: "#000000",
 	robots: {
 		index: true,
 		follow: true,
@@ -53,8 +59,6 @@ export const metadata: Metadata = {
 		canonical: "https://plamenband.ru",
 	},
 };
-
-
 
 export default function Samples() {
 	const t = useTranslations("Albums");
