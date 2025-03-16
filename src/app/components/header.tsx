@@ -16,14 +16,13 @@ export default function Header() {
         <div className="flex w-full">
             <div className="md:px-24 flex items-center justify-between w-full">
                 <div className="flex-1">
-                    <Link href="/" scroll={false}>
+                    <Link href="/">
                         <Image className="p-2" src="/head-logo.png" width={150} height={30} alt="logo" />
                     </Link>
                 </div>
                 <div className="hidden sm:flex items-center">
                     <Link
                         href="/about-us"
-                        scroll={false}
                         className={`${
                             pathname === "/en/about-us" || pathname === "/ru/about-us"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
@@ -33,7 +32,6 @@ export default function Header() {
                     </Link>
                     <Link
                         href="/samples"
-                        scroll={false}
                         className={`${
                             (pathname === "/en/samples" || pathname === "/ru/samples") || isSampleSlug
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
@@ -43,7 +41,6 @@ export default function Header() {
                     </Link>
                     <Link
                         href="/gallery"
-                        scroll={false}
                         className={`${
                             pathname === "/en/gallery" || pathname === "/ru/gallery"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
@@ -53,7 +50,6 @@ export default function Header() {
                     </Link>
                     <Link
                         href="/associates"
-                        scroll={false}
                         className={`${
                             pathname === "/en/associates" || pathname === "/ru/associates"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
@@ -63,7 +59,6 @@ export default function Header() {
                     </Link>
                     <Link
                         href="/guestbook"
-                        scroll={false}
                         className={`${
                             pathname === "/en/guestbook" || pathname === "/ru/guestbook"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"

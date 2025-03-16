@@ -4,6 +4,7 @@ import { Separator } from "@/components/ui/separator";
 import { Metadata } from "next";
 import PreviewKingOfLifeAndDeath from "../components/newsPreview/previewKingOvLifeAndDeath";
 import type { Viewport } from "next";
+import PreviewVoxOuroborosDagaz from "../components/newsPreview/prewiewVoxOuroborosDagaz";
 
 export const viewport: Viewport = {
 	width: "device-width",
@@ -69,6 +70,7 @@ export default function Home() {
                 <div className="mt-4 custom-font max-w-[1200px] italic">
                     <p>IGNE NATURA RENOVATUR INTEGRA </p>
                 </div>
+                <PreviewVoxOuroborosDagaz />
                 <PreviewKingOfLifeAndDeath />
             </div>
         </>

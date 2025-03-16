@@ -67,7 +67,7 @@ export default function AlbumKingOfLifeAndDeath() {
                         <Image className="rounded-md h-[250px] w-[250px] sm:w-[400px] sm:h-auto" src="/covers/king-ov-life-and-death-BIG.jpg" alt="" width={400} height={400} />
                         <div className="flex flex-col m-4 sm:mx-8">
                             <div>
-                                <h1 className="text-gray-300 text-sm sm:text-xl mb-3">
+                                <h1 className="text-gray-300 text-sm sm:text-base mb-3">
                                     Спустя два года после выхода альбома &quot;Магия Крови&quot;, мы с гордостью анонсируем наше новое творение — &quot;Король Жизни и Смерти&quot;. Этот альбом станет восьмым актом путешествия Пламень. Уже сейчас вы
                                     можете насладиться первым треком &quot;В Свете Авроры&quot;, доступным на нашей странице Bandcamp. <br />
                                     Официальный релиз альбома запланирован на следующий год. Следите за обновлениями.
