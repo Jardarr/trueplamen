@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "../../../i18n/routing";
 
 export default function PreviewVoxOuroborosDagaz() {
-	const t = useTranslations("VoxOuroborosDagaz");
+	const t = useTranslations("DagazPrewiew");
 	const cleanTitle = DOMPurify.sanitize(t("title"));
 	return (
 		<div className="custom-font w-full max-w-[1000px] pt-10 sm:py-7 gap-3">
