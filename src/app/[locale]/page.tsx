@@ -70,8 +70,8 @@ export default function Home() {
                 <div className="mt-4 custom-font max-w-[1200px] italic">
                     <p>IGNE NATURA RENOVATUR INTEGRA </p>
                 </div>
-                <PreviewVoxOuroborosDagaz />
                 <PreviewKingOfLifeAndDeath />
+                <PreviewVoxOuroborosDagaz />
             </div>
         </>
     );

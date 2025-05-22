@@ -3,6 +3,8 @@ import Image from "next/image";
 import DOMPurify from "isomorphic-dompurify";
 import { useTranslations } from "next-intl";
 import { Link } from "../../../i18n/routing";
+import { Badge } from "@/components/ui/badge";
+
 
 export default function PreviewKingOvLifeAndDeath() {
     const t = useTranslations("KingPreview");
@@ -16,8 +18,9 @@ export default function PreviewKingOvLifeAndDeath() {
                     </div>
                     <div className="flex-1 m-4">
 						{/* <p className="text-gray-300 text-sm sm:text-xl">NEW !!!</p> */}
+                        <Badge variant="destructive">NEW!!!</Badge>
                         <h1 className="text-gray-300 text-sm sm:text-base" dangerouslySetInnerHTML={{ __html: cleanTitle }}></h1>
-						<span className="text-gray-400 text-sm">23.12.2024</span>
+						<span className="text-gray-400 text-sm">22.05.2025</span>
 						<p className="news-link text-sm text-right flex items-center justify-end">{t("more")}<ChevronRight size={16} /></p>
                     </div>
                 </Link>

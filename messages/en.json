@@ -61,18 +61,22 @@
 		"title": "Guestbook"
 	},
 	"KingPreview": {
-		"title": "Two years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King ov Life and Death&quot;...",
+		"title": "Two years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King ov Life and Death&quot;...<br /><br />upd: new track &quot;My Fjords&quot;!",
 		"more": "see more..."
 	},
 	"DagazPrewiew": {
 		"title": "The day of the vernal equinox 2025 is the starting point of life Vox Ouroboros - side project of the black metal band Plamen. A different form of expression for a solitary journey to inspiration and self-discovery through meditative reflection and the excitement of discovering new horizons.",
 		"more": "see more..."
 	},
+	"KingNewsFull": {
+		"title": "Two years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King ov Life and Death&quot;. This album will be the eighth act in Plamen's journey. You can already enjoy the first track, &quot;In the Light ov Aurora&quot;, available on our Bandcamp page.<br /><br /> The official release is scheduled for the last week of June 2025.<br /><br /> Update: new track added to bandcamp page &quot;My Fjords&quot;!",
+		"listen": "listen on Bandcamp"
+	},
 	"Albums": {
 		"Release": {
 			"SeedsOvHell": {
 				"title": "Seeds ov Hell",
-				"description": "released September 14, 2018.",
+				"description": "released April 8, 2011.",
 				"tracklist": "1. Prelude<br /> 2. Servants ov Nothing<br /> 3. Seeds ov Hell​/​Rising!<br /> 4. An Ode to my Legions"
 			},
 			"ForTheSun": {
