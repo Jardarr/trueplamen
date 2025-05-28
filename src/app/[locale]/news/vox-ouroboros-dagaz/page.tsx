@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { ChevronRight } from "lucide-react";
 import type { Viewport } from "next";
+import { useTranslations } from "next-intl";
 
 export const viewport: Viewport = {
 	width: "device-width",
@@ -59,6 +60,7 @@ export const metadata: Metadata = {
 };
 
 export default function VoxOuroborosDagaz() {
+	const t = useTranslations("DagazFull");
 	return (
 		<div className="custom-font relative flex justify-center items-center pt-10 sm:py-7 gap-3 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
 			<div className="cover-box max-w-[1200px] flex justify-center mx-4">
@@ -68,24 +70,15 @@ export default function VoxOuroborosDagaz() {
 						<div className="flex flex-col m-4 sm:mx-8">
 							<div>
 								<h1 className="text-gray-300 text-sm sm:text-base mb-3">
-									Музыка — это нечто большее, чем просто последовательность звуков. Это особая магия, где каждая нота проникает в глубины души. Представь себе ночь, когда природа
-									замирает, и только далекие огни иных миров мерцают во тьме. Музыка начинает звучать, ноты плавно перетекают одна в другую и, словно голоса древних духов,
-									обволакивают тебя. Они рассказывают истории за пределами слов, и ты ощущаешь себя частью чего-то особенного, сокровенного. Погрузись в этот мистический симбиоз
-									мелодий и эмоций вместе с Vox Ouroboros, и пусть эта музыка наполнит твое сердце золотом нового дня!
+									{t("title")}
 								</h1>
-								<h2 className="text-gray-400 text-sm">
-									Music is more than just a sequence of sounds. It&apos;s a special magic, where each note penetrates into the depths of the soul. Imagine a night, when nature freezes,
-									and only the distant lights of other worlds flicker in the darkness. Music begins to sound, the notes flow smoothly one into another and envelope you like the
-									voices of ancient spirits. They tell stories beyond words and you feel yourself part of something particular and cryptic. Immerse yourself in this mystical
-									symbiosis of melodies and emotions with Vox Ouroboros, and let this music fill your heart with the gold of a new day!
-								</h2>
 							</div>
 							<p className="text-right mt-10 sm:mt-30">
 								<Link
 									href="https://voxouroboros.bandcamp.com/album/dagaz"
 									target="_blank"
 									className="text-gray-400 hover:text-gray-300 transition ease text-sm sm:text-base inline-flex items-center justify-end">
-									Слушать на Bandcamp
+									{t("listen")}
 									<ChevronRight size={16} />
 								</Link>
 							</p>
