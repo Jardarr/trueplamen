@@ -1,20 +1,55 @@
+:root {
+    //Fonts
+    --gta: "GTA", sans-serif;
+    --cormorant: "Cormorant", sans-serif;
+    --feofan: "Feofan", sans-serif;
+}
+
+@font-face {
+    font-family: "GTA";
+    src: url("/fonts/GtaRus.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src: url("/fonts/CormorantSC-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Feofan";
+    src: url("/fonts/Feofan.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    scrollbar-gutter: auto;
+}
+
 .cover-link {
     transition: filter 0.3s ease;
     visibility: visible;
 }
+
 .cover-box:hover > :not(:hover) {
     filter: brightness(0.5);
 }
+
 .cover-box {
     visibility: hidden;
 }
 
 .wasted {
-	font-family: var(--font-gta);
+    font-family: var(--gta);
 }
 
 .custom-font {
-    font-family: var(--font-corSC);
+    font-family: var(--cormorant);
 }
 
 .news-link {
@@ -30,6 +65,8 @@
 .swiper-pagination-bullet-active {
     opacity: var(--swiper-pagination-bullet-opacity, 0) !important;
 }
-.swiper-button-prev, .swiper-button-next {
+
+.swiper-button-prev,
+.swiper-button-next {
     color: #fff !important;
 }

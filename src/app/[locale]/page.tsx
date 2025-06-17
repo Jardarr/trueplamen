@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import PreviewKingOfLifeAndDeath from "../components/newsPreview/previewKingOvLifeAndDeath";
 import type { Viewport } from "next";
 import PreviewVoxOuroborosDagaz from "../components/newsPreview/prewiewVoxOuroborosDagaz";
+import TypewriterTextAnimate from "../components/typewriterTextAnimate";
 
 export const viewport: Viewport = {
 	width: "device-width",
@@ -67,11 +68,13 @@ export default function Home() {
             <Hero />
             <Separator className="sm:mt-40 max-w-7xl mx-auto hidden sm:block" />
             <div className="text-gray-300 sm:text-2xl px-3 my-4 sm:my-40 flex items-center flex-col">
-                <div className="mt-4 custom-font max-w-[1200px] italic">
+                <div className="font-Cormorant mt-4 max-w-[1200px] italic">
                     <p>IGNE NATURA RENOVATUR INTEGRA </p>
                 </div>
                 <PreviewKingOfLifeAndDeath />
                 <PreviewVoxOuroborosDagaz />
+                <Separator className="sm:my-40 max-w-7xl mx-auto hidden sm:block" />
+                <TypewriterTextAnimate />
             </div>
         </>
     );
