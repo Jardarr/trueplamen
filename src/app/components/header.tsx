@@ -15,7 +15,7 @@ export default function Header() {
     return (
         <div className="flex w-full">
             <div className="md:px-24 flex items-center justify-between w-full">
-                <div className="flex-1">
+                <div className="inline-flex flex-1">
                     <Link href="/">
                         <Image className="p-2" src="/head-logo.png" width={150} height={30} alt="logo" />
                     </Link>

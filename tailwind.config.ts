@@ -89,6 +89,11 @@ const config: Config = {
 			height: {
 				"custom-height": "calc(100vh - 40px)",
 			},
+			fontFamily: {
+				GTA: ["var(--gta)", "serif"],
+				Cormorant: ["var(--cormorant)", "monospace"],
+				Feofan: ["var(--feofan)", "monospace"],
+			}
 		},
 	},
 	// eslint-disable-next-line @typescript-eslint/no-require-imports

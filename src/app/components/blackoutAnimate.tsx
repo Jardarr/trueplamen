@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import gsap from "gsap";
 
-export default function AnimatedContent() {
+export default function BlackoutAnimate() {
 	useEffect(() => {
 		gsap.to(".wall", {
 			delay: 0.2,

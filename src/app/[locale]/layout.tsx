@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "../globals.css";
+import "../styles/globals.css";
 import "../styles/index.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
@@ -17,27 +16,6 @@ export const viewport: Viewport = {
 	userScalable: false,
 	themeColor: "black",
 };
-
-const geistSans = localFont({
-	src: "../fonts/GeistVF.woff",
-	variable: "--font-geist-sans",
-	weight: "100 900",
-});
-const geistMono = localFont({
-	src: "../fonts/GeistMonoVF.woff",
-	variable: "--font-geist-mono",
-	weight: "100 900",
-});
-const gtaWasted = localFont({
-	src: "../fonts/gta-russian.woff",
-	variable: "--font-gta",
-	weight: "100 900",
-});
-const cormorantSCReg = localFont({
-	src: "../fonts/CormorantSC-Regular.ttf",
-	variable: "--font-corSC",
-	weight: "100 900",
-});
 
 export const metadata: Metadata = {
 	title: "Plamen | Official",
@@ -97,7 +75,7 @@ export default async function LocaleLayout({ children, params: { locale } }: { c
 
 	return (
 		<html lang={locale}>
-			<body className={`${geistSans.variable} ${geistMono.variable} ${gtaWasted.variable} ${cormorantSCReg.variable} antialiased bg-black selection:bg-red-900`}>
+			<body className="antialiased bg-black selection:bg-red-900">
 				<NextIntlClientProvider messages={messages}>
 					<div className="px-4 bg-black sticky top-0 z-50">
 						<Header />
