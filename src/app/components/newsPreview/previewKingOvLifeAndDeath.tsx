@@ -5,7 +5,6 @@ import { useTranslations } from "next-intl";
 import { Link } from "../../../i18n/routing";
 import { Badge } from "@/components/ui/badge";
 
-
 export default function PreviewKingOvLifeAndDeath() {
     const t = useTranslations("KingPreview");
     const cleanTitle = DOMPurify.sanitize(t("title"));
