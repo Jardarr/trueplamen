@@ -16,7 +16,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
     title: "Plamen | King ov Life and Death",
-    description: "King ov Life and Death. New album of the band Plamen coming soon",
+    description: "King ov Life and Death. New album of the band Plamen on a bandcamp",
     keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
     authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
     applicationName: "Plamen Official",
