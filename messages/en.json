@@ -46,7 +46,12 @@
 			},
 			"act8": {
 				"title": "Act 8.",
-				"stanza": "&quot;Coming Soon...&quot;",
+				"stanza": "&quot;Lord of the two greatest kingdoms,<br />Thy throne stands on the border of worlds<br />Thy crown is the universe,<br />The eternal cycle of extinction and birth.&quot;",
+				"description": "Summer Solstice 2025 marks the release of the album &quot;King ov Life and Death&quot; - an existential revelation on the edge of the transcendental. Five black diamonds in the name of the Almighty!"
+			},
+			"act9": {
+				"title": "Act 9.",
+				"stanza": "&quot;Coming soon...&quot;",
 				"description": ""
 			}
 		}
@@ -61,7 +66,7 @@
 		"title": "Guestbook"
 	},
 	"KingPreview": {
-		"title": "Three years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King ov Life and Death&quot;...<br /><br />upd: new track &quot;My Fjords&quot;!",
+		"title": "&quot;King ov Life and Death&quot; - five black diamonds in the name of the Almighty!<br />The full album is available for listening on our bandcamp page.",
 		"more": "see more..."
 	},
 	"DagazPrewiew": {
@@ -69,7 +74,7 @@
 		"more": "see more..."
 	},
 	"KingNewsFull": {
-		"title": "Three years after the release of the album &quot;Blood Magic&quot;, we are proud to announce our new creation — &quot;King ov Life and Death&quot;. This album will be the eighth act in Plamen's journey. You can already enjoy the first track, &quot;In the Light ov Aurora&quot;, available on our Bandcamp page.<br /><br /> The official release is scheduled for the last week of June 2025.<br /><br /> Update: new track added to bandcamp page &quot;My Fjords&quot;!",
+		"title": "&quot;Lord of the two greatest kingdoms,<br />Thy throne stands on the border of worlds<br />Thy crown is the universe,<br />The eternal cycle of extinction and birth.&quot;<br /><br />&quot;King ov Life and Death&quot; - five black diamonds in the name of the Almighty!<br />The full album is available for listening on our bandcamp page.",
 		"listen": "listen on Bandcamp"
 	},
 	"DagazFull": {
