@@ -9,5 +9,6 @@ export function getActsData( t: (key: string) => string ) {
         { key: 'act6', title: t("acts.act6.title"), stanza: t("acts.act6.stanza"), description: t("acts.act6.description") },
         { key: 'act7', title: t("acts.act7.title"), stanza: t("acts.act7.stanza"), description: t("acts.act7.description") },
         { key: 'act8', title: t("acts.act8.title"), stanza: t("acts.act8.stanza"), description: t("acts.act8.description") },
+        { key: 'act9', title: t("acts.act8.title"), stanza: t("acts.act9.stanza"), description: t("acts.act9.description") },
     ];
 }

@@ -68,10 +68,10 @@ export default function AlbumKingOfLifeAndDeath() {
             <div className="cover-box max-w-[1200px] flex justify-center mx-4">
                 <div className="cover-link h-fit bg-neutral-900/45 p-3 rounded-md">
                     <div className="flex flex-col items-center lg:flex-row">
-                        <Image className="rounded-md h-[250px] w-[250px] sm:w-[400px] sm:h-auto" src="/covers/king-ov-life-and-death-BIG.jpg" alt="" width={400} height={400} />
+                        <Image className="rounded-md h-[250px] w-[250px] sm:w-[400px] sm:h-auto" src="/covers/king-ov-life-and-death-BIG-r.jpg" alt="" width={400} height={400} />
                         <div className="flex flex-col m-4 sm:mx-8">
                             <div>
-                                <h1 className="text-gray-300 text-sm sm:text-base mb-3" dangerouslySetInnerHTML={{ __html: cleanTitle }}></h1>
+                                <h1 className="text-gray-300 text-sm sm:text-base mb-3 text-center" dangerouslySetInnerHTML={{ __html: cleanTitle }}></h1>
                             </div>
                             <p className="text-right mt-10 sm:mt-30">
                                 <Link href="https://plamen.bandcamp.com/album/king-ov-life-and-death" target="_blank" className="text-gray-400 hover:text-gray-300 transition ease text-sm sm:text-base inline-flex items-center justify-end">
