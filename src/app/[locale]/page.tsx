@@ -6,6 +6,7 @@ import PreviewKingOfLifeAndDeath from "../components/newsPreview/previewKingOvLi
 import type { Viewport } from "next";
 import PreviewVoxOuroborosDagaz from "../components/newsPreview/prewiewVoxOuroborosDagaz";
 import TypewriterTextAnimate from "../components/typewriterTextAnimate";
+import PreviewVoxOuroborosSowilo from "../components/newsPreview/prewiewVoxOuroborosSowilo";
 
 export const viewport: Viewport = {
 	width: "device-width",
@@ -72,6 +73,7 @@ export default function Home() {
                     <p>IGNE NATURA RENOVATUR INTEGRA </p>
                 </div>
                 <PreviewKingOfLifeAndDeath />
+                <PreviewVoxOuroborosSowilo />
                 <PreviewVoxOuroborosDagaz />
                 <Separator className="sm:my-40 max-w-7xl mx-auto hidden sm:block" />
                 <TypewriterTextAnimate />

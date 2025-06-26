@@ -19,7 +19,7 @@ export default function PreviewKingOvLifeAndDeath() {
 						{/* <p className="text-gray-300 text-sm sm:text-xl">NEW !!!</p> */}
                         <Badge variant="destructive">NEW!!!</Badge>
                         <h1 className="text-gray-300 text-sm sm:text-base" dangerouslySetInnerHTML={{ __html: cleanTitle }}></h1>
-						<span className="text-gray-400 text-sm">20.06.2025</span>
+						<span className="text-gray-400 text-sm">21.06.2025</span>
 						<p className="news-link text-sm text-right flex items-center justify-end">{t("more")}<ChevronRight size={16} /></p>
                     </div>
                 </Link>
