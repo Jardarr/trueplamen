@@ -4,7 +4,7 @@ import { Link } from "../../../i18n/routing";
 import { getAlbumsData } from "../../utils/albumData";
 import { Metadata } from "next";
 import type { Viewport } from "next";
-import AlbumCards from "./albumCards";
+import AlbumCards from "../../components/albumCards";
 
 export const viewport: Viewport = {
     width: "device-width",

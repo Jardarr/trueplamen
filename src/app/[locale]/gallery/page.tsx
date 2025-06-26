@@ -26,6 +26,7 @@ type GalleryItem = {
 
 import galleryList from "../../utils/galleryList";
 import { Separator } from "@/components/ui/separator";
+import AlbumCards from "../../components/albumCards";
 
 export default function Gallery() {
     const [modalOpen, setModalOpen] = useState(false);
@@ -74,15 +75,16 @@ export default function Gallery() {
                                     return (
                                         <div key={key} className="flex flex-wrap gap-3 px-2">
                                             {images.map((img: ImageData, imgIndex: number) => (
-                                                <Image
-                                                    key={img.id}
-                                                    className="rounded-md"
-                                                    src={img.src}
-                                                    alt={img.alt}
-                                                    width={100}
-                                                    height={100}
-                                                    onClick={() => openModal(images, imgIndex)}
-                                                />
+                                                // <Image
+                                                //     key={img.id}
+                                                //     className="rounded-md"
+                                                //     src={img.src}
+                                                //     alt={img.alt}
+                                                //     width={100}
+                                                //     height={100}
+                                                //     onClick={() => openModal(images, imgIndex)}
+                                                // />
+                                                <AlbumCards key={img.id} image={{ src: img.src, alt: img.alt, width: 100, height: 100, className: "rounded-md", onClick: () => openModal(images, imgIndex) }} skeleton={{ className: "rounded-md" }}  />
                                             ))}
                                         </div>
                                     );

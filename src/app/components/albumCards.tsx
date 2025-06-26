@@ -10,6 +10,7 @@ interface ImageProps {
     width: number;
     height: number;
     className?: string;
+    onClick?: () => void;
 }
 
 interface SkeletonProps {
@@ -25,11 +26,10 @@ export default function AlbumCards({ image, skeleton }: CardProps) {
     const [isLoaded, setIsLoaded] = useState(false);
 
     return (
-        <div className="relative" style={{ width: image.width, height: image.height }}>
-            {/* Skeleton поверх */}
+        <div className="relative" onClick={image.onClick}>
+            {/* Скелетон абсолютно поверх */}
             {!isLoaded && <Skeleton className={`absolute inset-0 ${skeleton.className}`} />}
 
-            {/* Картинка загружается всегда */}
             <Image
                 src={image.src}
                 alt={image.alt}
