@@ -6,7 +6,7 @@ import DOMPurify from "isomorphic-dompurify";
 import { useTranslations } from "next-intl";
 import { Metadata } from "next";
 import type { Viewport } from "next";
-import AlbumCards from "../albumCards";
+import AlbumCards from "../../../components/albumCards";
 
 export const viewport: Viewport = {
     width: "device-width",
@@ -74,8 +74,16 @@ const BloodMagic = () => {
             <div className="max-w-[900px] w-full flex flex-col sm:flex-row">
                 <div className="flex flex-col items-center bg-neutral-800/45 p-3 rounded-md">
                     <AlbumCards
-                        image={{ src: album.imageBIG, alt: album.alt, width: 500, height: 500, className: "rounded-md rounded-md px-12 md:px-0 flex-1" }}
-                        skeleton={{ className: "rounded-md rounded-md px-12 md:px-0 flex-1 w-[300px] h-[300px] sm:w-[500px] sm:h-[500px]" }}
+                        image={{
+                            src: album.imageBIG,
+                            alt: album.alt,
+                            width: 500,
+                            height: 500,
+                            className: "w-full max-w-[500px] h-full rounded-md",
+                        }}
+                        skeleton={{
+                            className: "w-full max-w-[500px] h-full rounded-md bg-gray-600 animate-pulse",
+                        }}
                     />
                     <h1 className="text-gray-300 text-base">{t(`Release.BloodMagic.title`)}</h1>
                     <h2 className="text-gray-400 text-sm text-center font-thin">{t("Release.BloodMagic.description")}</h2>
