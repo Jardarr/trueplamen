@@ -73,7 +73,7 @@ export default function Home() {
                 <div className="font-Cormorant mt-4 max-w-[1200px] italic">
                     <p>IGNE NATURA RENOVATUR INTEGRA </p>
                 </div>
-                <div className="hidden"><PreviewVoxOuroborosFehu /></div>
+                <PreviewVoxOuroborosFehu />
                 <PreviewKingOfLifeAndDeath />
                 <PreviewVoxOuroborosSowilo />
                 <PreviewVoxOuroborosDagaz />
