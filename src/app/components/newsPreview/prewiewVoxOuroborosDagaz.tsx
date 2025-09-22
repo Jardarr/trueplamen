@@ -14,7 +14,7 @@ export default function PreviewVoxOuroborosDagaz() {
 					<div className="w-full h-[180px] sm:w-[200px] sm:h-[200px]">
 						<Image className="h-full w-full object-cover rounded-t-md sm:rounded-l-md sm:rounded-r-none" src="/covers/vox-ouroboros-dagaz-BIG.jpg" alt="" width={150} height={150} />
 					</div>
-					<div className="flex-1 m-4">
+					<div className="flex-1 m-4 w-full px-3">
 						{/* <p className="text-gray-300 text-sm sm:text-xl">NEW !!!</p> */}
 						<h1 className="text-gray-300 text-sm sm:text-base" dangerouslySetInnerHTML={{ __html: cleanTitle }}></h1>
 						<span className="text-gray-400 text-sm">20.03.2025</span>
