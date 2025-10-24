@@ -6,7 +6,7 @@ import DOMPurify from "isomorphic-dompurify";
 import { useTranslations } from "next-intl";
 import { Metadata } from "next";
 import type { Viewport } from "next";
-import AlbumCards from "../../../components/albumCards";
+import ImageWithSkeleton from "../../../components/imageWithSkeleton";
 
 export const viewport: Viewport = {
     width: "device-width",
@@ -72,8 +72,8 @@ const BloodMagic = () => {
     return (
         <div className="custom-font relative w-full flex flex-col items-center gap-8 pt-10 sm:justify-center pb-20 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">
             <div className="max-w-[900px] w-full flex flex-col sm:flex-row">
-                <div className="flex flex-col items-center bg-neutral-800/45 p-3 rounded-md">
-                    <AlbumCards
+                <div className="max-w-[500px] w-full flex flex-col items-center bg-neutral-800/45 p-3 rounded-md">
+                    <ImageWithSkeleton
                         image={{
                             src: album.imageBIG,
                             alt: album.alt,

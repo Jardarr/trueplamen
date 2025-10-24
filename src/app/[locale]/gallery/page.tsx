@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,6 +9,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Zoom, Navigation, Pagination } from "swiper/modules";
 import { useTranslations } from "next-intl";
+import galleryList from "../../utils/galleryList";
+import { Separator } from "@/components/ui/separator";
+import ImageWithSkeleton from "../../components/imageWithSkeleton";
 
 type ImageData = {
     id: number;
@@ -23,10 +27,6 @@ type GalleryItem = {
     anabasis_of_spirit?: ImageData[];
     magick_of_blood?: ImageData[];
 };
-
-import galleryList from "../../utils/galleryList";
-import { Separator } from "@/components/ui/separator";
-import AlbumCards from "../../components/albumCards";
 
 export default function Gallery() {
     const [modalOpen, setModalOpen] = useState(false);
@@ -73,19 +73,37 @@ export default function Gallery() {
                                 const images = item[key as keyof GalleryItem];
                                 if (images && Array.isArray(images)) {
                                     return (
-                                        <div key={key} className="flex flex-wrap gap-3 px-2">
-                                            {images.map((img: ImageData, imgIndex: number) => (
-                                                // <Image
-                                                //     key={img.id}
-                                                //     className="rounded-md"
-                                                //     src={img.src}
-                                                //     alt={img.alt}
-                                                //     width={100}
-                                                //     height={100}
-                                                //     onClick={() => openModal(images, imgIndex)}
-                                                // />
-                                                <AlbumCards key={img.id} image={{ src: img.src, alt: img.alt, width: 100, height: 100, className: "rounded-md", onClick: () => openModal(images, imgIndex) }} skeleton={{ className: "rounded-md" }}  />
-                                            ))}
+                                        <div
+                                            key={key}
+                                            className="flex flex-wrap gap-3 px-2"
+                                        >
+                                            {images.map(
+                                                (
+                                                    img: ImageData,
+                                                    imgIndex: number
+                                                ) => (
+                                                    <ImageWithSkeleton
+                                                        key={img.id}
+                                                        image={{
+                                                            src: img.src,
+                                                            alt: img.alt,
+                                                            width: 100,
+                                                            height: 100,
+                                                            className:
+                                                                "rounded-md",
+                                                            onClick: () =>
+                                                                openModal(
+                                                                    images,
+                                                                    imgIndex
+                                                                ),
+                                                        }}
+                                                        skeleton={{
+                                                            className:
+                                                                "rounded-md",
+                                                        }}
+                                                    />
+                                                )
+                                            )}
                                         </div>
                                     );
                                 }
@@ -120,19 +138,24 @@ export default function Gallery() {
                                 initialSlide={selectedIndex}
                                 className="mySwiper"
                             >
-                                {selectedImages.map((img: ImageData, index: number) => (
-                                    <SwiperSlide key={index} className="flex justify-center items-center">
-                                        <div className="swiper-zoom-container flex items-center justify-center">
-                                            <Image
-                                                src={img.src}
-                                                alt={img.alt}
-                                                width={600}
-                                                height={600}
-                                                objectFit="contain"
-                                            />
-                                        </div>
-                                    </SwiperSlide>
-                                ))}
+                                {selectedImages.map(
+                                    (img: ImageData, index: number) => (
+                                        <SwiperSlide
+                                            key={index}
+                                            className="flex justify-center items-center"
+                                        >
+                                            <div className="swiper-zoom-container flex items-center justify-center">
+                                                <Image
+                                                    src={img.src}
+                                                    alt={img.alt}
+                                                    width={600}
+                                                    height={600}
+                                                    objectFit="contain"
+                                                />
+                                            </div>
+                                        </SwiperSlide>
+                                    )
+                                )}
                             </Swiper>
                         </div>
                     )}
