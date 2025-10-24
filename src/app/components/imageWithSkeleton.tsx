@@ -7,8 +7,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 interface ImageProps {
     src: string;
     alt: string;
-    width: number;
-    height: number;
+    width: number | string;
+    height: number | string;
     className?: string;
     onClick?: () => void;
 }
@@ -22,19 +22,20 @@ interface CardProps {
     skeleton: SkeletonProps;
 }
 
-export default function AlbumCards({ image, skeleton }: CardProps) {
+export default function ImageWithSkeleton({ image, skeleton }: CardProps) {
     const [isLoaded, setIsLoaded] = useState(false);
+    const widthClass = typeof image.width === 'number' ? `w-[${image.width}px]` : image.width;
+    const heightClass = typeof image.height === 'number' ? `h-[${image.height}px]` : image.height;
 
     return (
-        <div className="relative" onClick={image.onClick}>
-            {/* Скелетон абсолютно поверх */}
-            {!isLoaded && <Skeleton className={`absolute inset-0 ${skeleton.className}`} />}
+        <div className={`relative ${widthClass} ${heightClass}`} onClick={image.onClick}>
+            {!isLoaded && <Skeleton className={`absolute inset-0 ${widthClass} ${heightClass} ${skeleton.className}`} />}
 
             <Image
                 src={image.src}
                 alt={image.alt}
-                width={image.width}
-                height={image.height}
+                width={typeof image.width === 'number' ? image.width : undefined}
+                height={typeof image.height === 'number' ? image.height : undefined}
                 className={`${image.className} transition-opacity duration-500 ${isLoaded ? "opacity-100" : "opacity-0"}`}
                 onLoadingComplete={() => setIsLoaded(true)}
             />

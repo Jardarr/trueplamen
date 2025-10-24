@@ -4,7 +4,7 @@ import { Link } from "../../../i18n/routing";
 import { getAlbumsData } from "../../utils/albumData";
 import { Metadata } from "next";
 import type { Viewport } from "next";
-import AlbumCards from "../../components/albumCards";
+import ImageWithSkeleton from "../../components/imageWithSkeleton";
 
 export const viewport: Viewport = {
     width: "device-width",
@@ -70,8 +70,8 @@ export default function Samples() {
                     const albumData = Album.find((a) => a.key === album.key);
                     return (
                         <div key={album.alt} className="cover-link h-fit bg-neutral-900/45 p-3 rounded-md">
-                            <Link href={album.link} scroll={false}>
-                                <AlbumCards
+                            <Link href={album.link}>
+                                <ImageWithSkeleton
                                     image={{ src: album.image, alt: album.alt, width: 300, height: 300, className: "rounded-md" }}
                                     skeleton={{ className: "rounded-md w-[300px] h-[300px]" }}
                                 />
