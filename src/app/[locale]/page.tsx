@@ -8,6 +8,8 @@ import PreviewVoxOuroborosDagaz from "../components/newsPreview/prewiewVoxOurobo
 import TypewriterTextAnimate from "../components/typewriterTextAnimate";
 import PreviewVoxOuroborosSowilo from "../components/newsPreview/prewiewVoxOuroborosSowilo";
 import PreviewVoxOuroborosFehu from "../components/newsPreview/prewiewVoxOuroborosFehu";
+import PreviewVoxOuroborosIsaz from "../components/newsPreview/prewiewVoxOuroborosIsaz";
+import PrewiewHymnsOvBlackEnergy from "../components/newsPreview/prewiewHymnsOvBlackEnergy";
 
 export const viewport: Viewport = {
 	width: "device-width",
@@ -73,6 +75,8 @@ export default function Home() {
                 <div className="font-Cormorant mt-4 max-w-[1200px] italic">
                     <p>IGNE NATURA RENOVATUR INTEGRA </p>
                 </div>
+                <PrewiewHymnsOvBlackEnergy />
+                <PreviewVoxOuroborosIsaz />
                 <PreviewVoxOuroborosFehu />
                 <PreviewKingOfLifeAndDeath />
                 <PreviewVoxOuroborosSowilo />
