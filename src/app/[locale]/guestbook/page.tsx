@@ -3,6 +3,8 @@ import GuestbookServer from "../../components/guestbookServer";
 import { useTranslations } from "next-intl";
 import type { Viewport } from "next";
 
+export const revalidate = 60;
+
 export const viewport: Viewport = {
 	width: "device-width",
 	initialScale: 1,
