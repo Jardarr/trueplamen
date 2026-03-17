@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import GuestbookServer from "../../components/guestbookServer";
 import { useTranslations } from "next-intl";
 import type { Viewport } from "next";
+import { getTranslations } from "next-intl/server";
 
 export const revalidate = 60;
 
@@ -13,51 +14,54 @@ export const viewport: Viewport = {
     themeColor: 'black',
 };
 
-export const metadata: Metadata = {
-	title: "Plamen | Guestbook",
-	description: "Guestbook. Black Metal band from Mordor, created in 2006.",
-	keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
-	authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
-	applicationName: "Plamen Official",
-	openGraph: {
-		title: "Plamen | Guestbook - Black Metal band from Mordor",
-		description: "Guestbook. Official website of the Black Metal band Plamen, created in 2006.",
-		url: "https://plamenband.ru",
-		siteName: "Plamen Official",
-		images: [
-			{
-				url: "/og-logo.jpg",
-				width: 800,
-				height: 600,
-				alt: "Plamen Band Cover",
-			},
-		],
-		locale: "ru-RU",
-		type: "website",
-	},
-	twitter: {
-		card: "summary_large_image",
-		title: "Plamen | Guestbook. Plamen - Black Metal band from Mordor",
-		description: "Guestbook. Visit the official website of the band Plamen.",
-		images: ["/og-logo.jpg"],
-	},
-	robots: {
-		index: true,
-		follow: true,
-		nocache: true,
-		googleBot: {
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+	const t = await getTranslations({ locale: params.locale, namespace: "Guestbook" });
+	return {
+		title: `Plamen | ${t("title")}`,
+		description: t("description"),
+		keywords: ["Black Metal", "Music", "Plamen", "Пламень", "Guestbook"],
+		authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
+		applicationName: "Plamen Official",
+		openGraph: {
+			title: `Plamen | ${t("title")}`,
+			description: t("description"),
+			url: "https://plamenband.ru",
+			siteName: "Plamen Official",
+			images: [
+				{
+					url: "/og-logo.jpg",
+					width: 800,
+					height: 600,
+					alt: "Plamen Band Cover",
+				},
+			],
+			locale: "ru-RU",
+			type: "website",
+		},
+		twitter: {
+			card: "summary_large_image",
+			title: `Plamen | ${t("title")}`,
+			description: t("description"),
+			images: ["/og-logo.jpg"],
+		},
+		robots: {
 			index: true,
 			follow: true,
-			noimageindex: false,
-			"max-snippet": -1,
-			"max-image-preview": "large",
-			"max-video-preview": -1,
+			nocache: true,
+			googleBot: {
+				index: true,
+				follow: true,
+				noimageindex: false,
+				"max-snippet": -1,
+				"max-image-preview": "large",
+				"max-video-preview": -1,
+			},
 		},
-	},
-	alternates: {
-		canonical: "https://plamenband.ru",
-	},
-};
+		alternates: {
+			canonical: "https://plamenband.ru/guestbook",
+		},
+	}
+}
 
 export default function Guestbook() {
 	const t = useTranslations("Guestbook");

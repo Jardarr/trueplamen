@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Metadata } from "next";
 import ActAboutList from "../../components/actAboutList";
 import type { Viewport } from "next";
+import { getTranslations } from "next-intl/server";
 
 export const viewport: Viewport = {
 	width: "device-width",
@@ -11,56 +12,58 @@ export const viewport: Viewport = {
 	userScalable: false,
     themeColor: 'black',
 };
-
-export const metadata: Metadata = {
-	title: "Plamen | About Us",
-	description: "About Us. Black Metal band from Mordor, created in 2006.",
-	keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
-	authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
-	applicationName: "Plamen Official",
-	openGraph: {
-		title: "Plamen | About Us - Black Metal band from Mordor",
-		description: "About Us. Official website of the Black Metal band Plamen, created in 2006.",
-		url: "https://plamenband.ru",
-		siteName: "Plamen Official",
-		images: [
-			{
-				url: "/og-logo.jpg",
-				width: 800,
-				height: 600,
-				alt: "Plamen Band Cover",
-			},
-		],
-		locale: "ru-RU",
-		type: "website",
-	},
-	twitter: {
-		card: "summary_large_image",
-		title: "Plamen | About Us. Plamen - Black Metal band from Mordor",
-		description: "About Us. Visit the official website of the band Plamen.",
-		images: ["/og-logo.jpg"],
-	},
-	robots: {
-		index: true,
-		follow: true,
-		nocache: true,
-		googleBot: {
+	
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+	const t = await getTranslations({ locale: params.locale, namespace: "AboutUs" });
+	return {
+		title: `Plamen | ${t("title")}`,
+		description: t("acts.act1.description"),
+		keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
+		authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
+		applicationName: "Plamen Official",
+		openGraph: {
+			title: `Plamen | ${t("title")}`,
+			description: t("acts.act1.description"),
+			url: "https://plamenband.ru",
+			siteName: "Plamen Official",
+			images: [
+				{
+					url: "/og-logo.jpg",
+					width: 800,
+					height: 600,
+					alt: "Plamen Band Cover",
+				},
+			],
+			locale: "ru-RU",
+			type: "website",
+		},
+		twitter: {
+			card: "summary_large_image",
+			title: `Plamen | ${t("title")}`,
+			description: t("acts.act1.description"),
+			images: ["/og-logo.jpg"],
+		},
+		robots: {
 			index: true,
 			follow: true,
-			noimageindex: false,
-			"max-snippet": -1,
-			"max-image-preview": "large",
-			"max-video-preview": -1,
+			nocache: true,
+			googleBot: {
+				index: true,
+				follow: true,
+				noimageindex: false,
+				"max-snippet": -1,
+				"max-image-preview": "large",
+				"max-video-preview": -1,
+			},
 		},
-	},
-	alternates: {
-		canonical: "https://plamenband.ru",
-	},
-};
+		alternates: {
+			canonical: "https://plamenband.ru/about-us",
+		},
+	}
+}
 
 export default function AboutUs() {
 	const t = useTranslations("AboutUs");
-	// Получаем массив данных, передавая функцию t
 	const acts = getActsData(t);
 	return (
 		<div className="custom-font flex justify-center pt-10 sm:py-7 bg-main-bg bg-cover bg-fixed bg-top bg-no-repeat min-h-screen sm:h-fit">

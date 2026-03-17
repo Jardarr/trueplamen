@@ -1,73 +1,154 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://www.trueplamen.ru/</loc>
-	<lastmod>2025-01-31T14:14:12+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru</loc>
-	<lastmod>2025-01-31T14:14:13+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/about-us</loc>
-	<lastmod>2025-01-31T14:14:13+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/samples</loc>
-	<lastmod>2025-01-31T14:14:13+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/gallery</loc>
-	<lastmod>2025-01-31T14:14:13+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/associates</loc>
-	<lastmod>2025-01-31T14:14:13+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/guestbook</loc>
-	<lastmod>2025-01-31T14:14:13+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/news/king-ov-life-and-death</loc>
-	<lastmod>2025-01-31T14:14:13+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/samples/seeds-ov-hell</loc>
-	<lastmod>2025-01-31T14:14:16+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/samples/for-the-sun</loc>
-	<lastmod>2025-01-31T14:14:16+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/samples/to-the-dust</loc>
-	<lastmod>2025-01-31T14:14:16+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/samples/another-ones</loc>
-	<lastmod>2025-01-31T14:14:16+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/samples/anabasis-ov-spirit</loc>
-	<lastmod>2025-01-31T14:14:16+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
-<url>
-	<loc>https://www.trueplamen.ru/ru/samples/blood-magic</loc>
-	<lastmod>2025-01-31T14:14:16+01:00</lastmod>
-	<priority>0.1</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.trueplamen.ru/</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/about-us</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/samples</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/gallery</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/associates</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/guestbook</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/news/king-ov-life-and-death</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/news/vox-ouroboros-dagaz</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/news/vox-ouroboros-sowilo</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/samples/anabasis-ov-spirit</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/samples/another-ones</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/samples/blood-magic</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/samples/for-the-sun</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/samples/seeds-ov-hell</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/samples/to-the-dust</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>https://www.trueplamen.ru/en</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/about-us</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/samples</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/gallery</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/associates</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/guestbook</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/news/king-ov-life-and-death</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/news/vox-ouroboros-dagaz</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/news/vox-ouroboros-sowilo</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/samples/anabasis-ov-spirit</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/samples/another-ones</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/samples/blood-magic</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/samples/for-the-sun</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/samples/seeds-ov-hell</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.trueplamen.ru/en/samples/to-the-dust</loc>
+		<lastmod>2026-03-17</lastmod>
+		<priority>0.5</priority>
+	</url>
 </urlset>
