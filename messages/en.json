@@ -6,6 +6,10 @@
 		"associates": "Associates",
 		"guestbook": "Guestbook"
 	},
+	"Home": {
+		"title": "Home Page",
+		"description": "Forged in a dark forge and cast in black metal!"
+	},
 	"AboutUs": {
 		"title": "About Us",
 		"acts": {
@@ -60,10 +64,12 @@
 		"title": "Gallery"
 	},
 	"Associates": {
-		"title": "Associates"
+		"title": "Associates",
+		"description": "The individuals who gathered at Helvete have been referred to as the Black Circle or Black Metal Inner Circle..."
 	},
 	"Guestbook": {
-		"title": "Guestbook"
+		"title": "Guestbook",
+		"description": "Leave your mark in the annals of our legacy! We welcome all voices."
 	},
 	"KingPreview": {
 		"title": "&quot;King ov Life and Death&quot; - five black diamonds in the name of the Almighty!<br />The full album is available for listening on our bandcamp page.",
@@ -105,31 +111,37 @@
 		"Release": {
 			"SeedsOvHell": {
 				"title": "Seeds ov Hell",
+				"metaDescription": "Follow the dark of my Temple Through the Flame of it gate Devouring all aspirations Put on the crown of decay",
 				"description": "released April 8, 2011.",
 				"tracklist": "1. Prelude<br /> 2. Servants ov Nothing<br /> 3. Seeds ov Hell​/​Rising!<br /> 4. An Ode to my Legions"
 			},
 			"ForTheSun": {
 				"title": "For the Sun",
+				"metaDescription": "Star of Doom burns with absorption, With the scorching eyes of the uncreated Flame. Sitra Ahra - your abode! Rise! Tagirion! Rise!",
 				"description": "released May 11, 2013.",
 				"tracklist": "1. Before the Divine<br /> 2. In Worship to Eternal<br /> 3. Star of Doom<br /> 4. Catharsis<br /> 5. Birth of Sorrow<br /> 6. Carrion of My Soul<br /> 7. Ruins by Runes<br /> 8. The Incarnations<br /> 9. by Path of the Black Will<br /> 10. In The Depths of Non-existence"
 			},
 			"ToTheDust": {
 				"title": "To the Dust",
+				"metaDescription": "On the heart is graved Soul tearing Sending the darkness Your name!",
 				"description": "released March 27, 2015.",
 				"tracklist": "1. Origination<br /> 2. All Faith is Here!<br /> 3. In Great Cold Fire<br /> 4. -<br /> 5. The Shine<br /> 6. Awakening of Blood<br /> 7. Sons of the Flame<br /> 8. Cognition of the I<br /> 9. Reich of Emptiness"
 			},
 			"AnotherOnes": {
 				"title": "Another Ones",
+				"metaDescription": "In malicious blink of steel Under the wings of bird playing with the sun Embraced by miraculous storms We will rejoice or we will rot away",
 				"description": "released November 30, 2017.",
 				"tracklist": "1. We Are<br /> 2. Into the Otherworldly...<br /> 3. Possession<br /> 4. At the Gates of Night Eternal<br /> 5. Strongholds of Truth<br /> 6. The Pilgrim<br /> 7. Hymn of the Fallen Heart<br /> 8. Cliffs of the Sun<br /> 9. Echoes of Fires"
 			},
 			"AnabasisOvSpirit": {
 				"title": "Anabasis ov Spirit",
+				"metaDescription": "The darkness prevails beyond the fell walls on the North The white temple of icy silence. The darkness prevails in me and I’m leaving the dungeons of dust On the last drakkar straight to the very heart of winter.",
 				"description": "released July 11, 2020.",
                 "tracklist": "1. The North (Proclamation)<br /> 2. The Night (Revelation)<br /> 3. The Mystery (Comprehension)<br /> 4. The Demise (Valediction)<br /> 5. The Flame (Quintessence)<br /> 6. The Sacrifice (Recantation)<br /> 7. The Cycle (Overcoming)"
             },
 			"BloodMagic": {
 				"title": "Blood Magic",
+				"metaDescription": "From the rhyton in the night I spill blood on cold stones... The ritual of lonely soul is over.",
 				"description": "released April 8, 2022.",
 				"tracklist": "1. Inside ΑΩ<br /> 2. The Ritual<br /> 3. Prophecy<br /> 4. Blood Magic<br /> 5. The Gift"
 			}

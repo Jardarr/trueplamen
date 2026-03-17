@@ -24,7 +24,7 @@ export default function Header() {
                     <Link
                         href="/about-us"
                         className={`${
-                            pathname === "/en/about-us" || pathname === "/ru/about-us"
+                            pathname === "/en/about-us" || pathname === "/about-us"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                                 : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                         }`}>
@@ -33,7 +33,7 @@ export default function Header() {
                     <Link
                         href="/samples"
                         className={`${
-                            (pathname === "/en/samples" || pathname === "/ru/samples") || isSampleSlug
+                            (pathname === "/en/samples" || pathname === "/samples") || isSampleSlug
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                                 : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                         }`}>
@@ -42,7 +42,7 @@ export default function Header() {
                     <Link
                         href="/gallery"
                         className={`${
-                            pathname === "/en/gallery" || pathname === "/ru/gallery"
+                            pathname === "/en/gallery" || pathname === "/gallery"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                                 : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                         }`}>
@@ -51,7 +51,7 @@ export default function Header() {
                     <Link
                         href="/associates"
                         className={`${
-                            pathname === "/en/associates" || pathname === "/ru/associates"
+                            pathname === "/en/associates" || pathname === "/associates"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                                 : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                         }`}>
@@ -60,7 +60,7 @@ export default function Header() {
                     <Link
                         href="/guestbook"
                         className={`${
-                            pathname === "/en/guestbook" || pathname === "/ru/guestbook"
+                            pathname === "/en/guestbook" || pathname === "/guestbook"
                                 ? "underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                                 : "no-underline text-gray-300 hover:text-gray-400 transition-colors ease-in-out font-thin custom-font mx-2"
                         }`}>

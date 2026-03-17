@@ -23,14 +23,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/news/king-ov-life-and-death",
-				permanent: false,
-			},
-			{
-				source: "/news/king-ov-life-and-death",
 				destination: "/en/news/king-ov-life-and-death",
 				permanent: false,
 			},
@@ -40,14 +35,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/gallery",
-				permanent: false,
-			},
-			{
-				source: "/gallery",
 				destination: "/en/gallery",
 				permanent: false,
 			},
@@ -57,14 +47,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/about-us",
-				permanent: false,
-			},
-			{
-				source: "/about-us",
 				destination: "/en/about-us",
 				permanent: false,
 			},
@@ -74,14 +59,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/associates",
-				permanent: false,
-			},
-			{
-				source: "/associates",
 				destination: "/en/associates",
 				permanent: false,
 			},
@@ -91,14 +71,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/guestbook",
-				permanent: false,
-			},
-			{
-				source: "/guestbook",
 				destination: "/en/guestbook",
 				permanent: false,
 			},
@@ -108,14 +83,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/news/vox-ouroboros-dagaz",
-				permanent: false,
-			},
-			{
-				source: "/news/vox-ouroboros-dagaz",
 				destination: "/en/news/vox-ouroboros-dagaz",
 				permanent: false,
 			},
@@ -125,14 +95,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/samples/anabasis-ov-spirit",
-				permanent: false,
-			},
-			{
-				source: "/samples/anabasis-ov-spirit",
 				destination: "/en/samples/anabasis-ov-spirit",
 				permanent: false,
 			},
@@ -142,14 +107,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/samples/another-ones",
-				permanent: false,
-			},
-			{
-				source: "/samples/another-ones",
 				destination: "/en/samples/another-ones",
 				permanent: false,
 			},
@@ -159,14 +119,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/samples/blood-magic",
-				permanent: false,
-			},
-			{
-				source: "/samples/blood-magic",
 				destination: "/en/samples/blood-magic",
 				permanent: false,
 			},
@@ -176,14 +131,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/samples/for-the-sun",
-				permanent: false,
-			},
-			{
-				source: "/samples/for-the-sun",
 				destination: "/en/samples/for-the-sun",
 				permanent: false,
 			},
@@ -193,14 +143,9 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/samples/seeds-ov-hell",
-				permanent: false,
-			},
-			{
-				source: "/samples/seeds-ov-hell",
 				destination: "/en/samples/seeds-ov-hell",
 				permanent: false,
 			},
@@ -210,19 +155,15 @@ const nextConfig = {
 					{
 						type: "header",
 						key: "accept-language",
-						value: "(ru).*",
+						value: "(en).*",
 					},
 				],
-				destination: "/ru/samples/to-the-dust",
-				permanent: false,
-			},
-			{
-				source: "/samples/to-the-dust",
 				destination: "/en/samples/to-the-dust",
 				permanent: false,
 			},
-		];
+			];
 	},
 };
 
 export default withNextIntl(nextConfig);
+

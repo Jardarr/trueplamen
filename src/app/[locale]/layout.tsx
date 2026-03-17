@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import "../styles/globals.css";
-import "../styles/index.scss";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import { NextIntlClientProvider } from "next-intl";
@@ -74,18 +72,14 @@ export default async function LocaleLayout({ children, params: { locale } }: { c
 	const messages = await getMessages();
 
 	return (
-		<html lang={locale}>
-			<body className="antialiased bg-black selection:bg-red-900">
-				<NextIntlClientProvider messages={messages}>
-					<div className="px-4 bg-black sticky top-0 z-50">
-						<Header />
-					</div>
-					{children}
-					<div className="px-4 md:px-24 py-4">
-						<Footer />
-					</div>
-				</NextIntlClientProvider>
-			</body>
-		</html>
+		<NextIntlClientProvider messages={messages}>
+			<div className="px-4 bg-black sticky top-0 z-50">
+				<Header />
+			</div>
+			{children}
+			<div className="px-4 md:px-24 py-4">
+				<Footer />
+			</div>
+		</NextIntlClientProvider>
 	);
 }

@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import { Metadata } from "next";
 import type { Viewport } from "next";
 import ImageWithSkeleton from "../../../components/imageWithSkeleton";
+import { getTranslations } from "next-intl/server";
 
 export const viewport: Viewport = {
     width: "device-width",
@@ -16,51 +17,54 @@ export const viewport: Viewport = {
     themeColor: "black",
 };
 
-export const metadata: Metadata = {
-    title: "Plamen | For The Sun",
-    description: "For The Sun. You have come into this world to blaze in the sun of the City... And the fiercer the evil, the brighter burns the flame of pure hearts!",
-    keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
-    authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
-    applicationName: "Plamen Official",
-    openGraph: {
-        title: "Plamen | For The Sun",
-        description: "For The Sun. You have come into this world to blaze in the sun of the City... And the fiercer the evil, the brighter burns the flame of pure hearts!",
-        url: "https://plamenband.ru",
-        siteName: "Plamen Official",
-        images: [
-            {
-                url: "/og-logo.jpg",
-                width: 800,
-                height: 600,
-                alt: "Plamen Band Cover",
-            },
-        ],
-        locale: "ru-RU",
-        type: "website",
-    },
-    twitter: {
-        card: "summary_large_image",
-        title: "Plamen | For The Sun",
-        description: "For The Sun. You have come into this world to blaze in the sun of the City... And the fiercer the evil, the brighter burns the flame of pure hearts!",
-        images: ["/og-logo.jpg"],
-    },
-    robots: {
-        index: true,
-        follow: true,
-        nocache: true,
-        googleBot: {
-            index: true,
-            follow: true,
-            noimageindex: false,
-            "max-snippet": -1,
-            "max-image-preview": "large",
-            "max-video-preview": -1,
-        },
-    },
-    alternates: {
-        canonical: "https://plamenband.ru",
-    },
-};
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+	const t = await getTranslations({ locale: params.locale, namespace: "Albums" });
+	return {
+		title: `Plamen | ${t("Release.ForTheSun.title")}`,
+		description: t("Release.ForTheSun.metaDescription"),
+		keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
+		authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
+		applicationName: "Plamen Official",
+		openGraph: {
+			title: `Plamen | ${t("Release.ForTheSun.title")}`,
+			description: t("Release.ForTheSun.metaDescription"),
+			url: "https://plamenband.ru",
+			siteName: "Plamen Official",
+			images: [
+				{
+					url: "/og-logo.jpg",
+					width: 800,
+					height: 600,
+					alt: "Plamen Band Cover",
+				},
+			],
+			locale: "ru-RU",
+			type: "website",
+		},
+		twitter: {
+			card: "summary_large_image",
+			title: `Plamen | ${t("Release.ForTheSun.title")}`,
+			description: t("Release.ForTheSun.metaDescription"),
+			images: ["/og-logo.jpg"],
+		},
+		robots: {
+			index: true,
+			follow: true,
+			nocache: true,
+			googleBot: {
+				index: true,
+				follow: true,
+				noimageindex: false,
+				"max-snippet": -1,
+				"max-image-preview": "large",
+				"max-video-preview": -1,
+			},
+		},
+		alternates: {
+			canonical: "https://plamenband.ru/samples/for-the-sun",
+		},
+	}
+}
 
 const ForTheSun = () => {
     const t = useTranslations("Albums");
