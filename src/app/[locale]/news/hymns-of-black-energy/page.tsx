@@ -27,9 +27,9 @@ export const metadata: Metadata = {
         siteName: "Plamen Official",
         images: [
             {
-                url: "/og-logo-king.jpg",
-                width: 800,
-                height: 600,
+                url: "/og-hymns.jpg",
+                width: 1734,
+                height: 907,
                 alt: "Plamen Band Cover",
             },
         ],
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Plamen | Hymns of Black Energy",
         description: "Hymns of Black Energy. New album of the band Plamen coming soon",
-        images: ["/og-logo-king.jpg"],
+        images: ["/og-hymns.jpg"],
     },
     robots: {
         index: true,
@@ -74,7 +74,7 @@ export default function AlbumHymnsOfBlackEnergy() {
                                 <h1 className="text-gray-300 text-sm sm:text-base mb-3 text-center" dangerouslySetInnerHTML={{ __html: cleanTitle }}></h1>
                             </div>
                             <p className="text-right mt-10 sm:mt-30">
-                                <Link href="https://plamen.bandcamp.com/album/king-ov-life-and-death" target="_blank" className="text-gray-400 hover:text-gray-300 transition ease text-sm sm:text-base inline-flex items-center justify-end">
+                                <Link href="https://plamen.bandcamp.com/album/hymns-ov-black-energy" target="_blank" className="text-gray-400 hover:text-gray-300 transition ease text-sm sm:text-base inline-flex items-center justify-end">
                                     {t("listen")}
                                     <ChevronRight size={16} />
                                 </Link>
