@@ -11,14 +11,14 @@ export default function PrewiewHymnsOvBlackEnergy() {
 	return (
 		<div className="custom-font w-full max-w-[1000px] pt-10 sm:py-7 gap-3">
 			<div className="news-box bg-neutral-900 rounded-md">
-				<Link href="https://plamen.bandcamp.com/album/hymns-ov-black-energy" className="overflow-hidden flex flex-col sm:flex-row justify-between items-center">
+				<Link href="/news/hymns-of-black-energy" className="overflow-hidden flex flex-col sm:flex-row justify-between items-center">
 					<div className="w-full h-[180px] sm:w-[200px] sm:h-[200px]">
 						<Image className="h-full w-full object-cover rounded-t-md sm:rounded-l-md sm:rounded-r-none" src="/covers/hymns-ov-black-energy-BIG.jpg" alt="" width={150} height={150} />
 					</div>
 					<div className="flex-1 m-4 w-full px-3">
 						<Badge variant="destructive">NEW!!!</Badge>
 						<h1 className="text-gray-300 text-sm sm:text-base" dangerouslySetInnerHTML={{ __html: cleanTitle }}></h1>
-						<span className="text-gray-400 text-sm">18.12.2025</span>
+						<span className="text-gray-400 text-sm">06.06.2026</span>
 						<p className="news-link text-sm text-right flex items-center justify-end">{t("more")}
 							<ChevronRight size={16} />
 						</p>
