@@ -20,12 +20,12 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 		title: `Plamen | ${t("title")}`,
 		description: t("description"),
 		keywords: ["Black Metal", "Music", "Plamen", "Пламень", "Guestbook"],
-		authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
+		authors: [{ name: "jardarr", url: "https://jrdrr.vercel.app/" }],
 		applicationName: "Plamen Official",
 		openGraph: {
 			title: `Plamen | ${t("title")}`,
 			description: t("description"),
-			url: "https://plamenband.ru",
+			url: "https://trueplamen.ru/guestbook",
 			siteName: "Plamen Official",
 			images: [
 				{
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 			},
 		},
 		alternates: {
-			canonical: "https://plamenband.ru/guestbook",
+			canonical: "https://trueplamen.ru/guestbook",
 		},
 	}
 }

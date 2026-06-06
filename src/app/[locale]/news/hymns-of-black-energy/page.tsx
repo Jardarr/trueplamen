@@ -18,19 +18,19 @@ export const metadata: Metadata = {
     title: "Plamen | Hymns of Black Energy",
     description: "Hymns of Black Energy. New album of the band Plamen on a bandcamp",
     keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
-    authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
+    authors: [{ name: "jardarr", url: "https://jrdrr.vercel.app/" }],
     applicationName: "Plamen Official",
     openGraph: {
         title: "Plamen | Hymns of Black Energy",
         description: "Hymns of Black Energy. New album of the band Plamen coming soon",
-        url: "https://plamenband.ru",
+        url: "https://trueplamen.ru/news/hymns-of-black-energy",
         siteName: "Plamen Official",
         images: [
             {
                 url: "/og-hymns.jpg",
-                width: 1734,
-                height: 907,
-                alt: "Plamen Band Cover",
+                width: 800,
+                height: 600,
+                alt: "Hymns of Black Energy",
             },
         ],
         locale: "ru-RU",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
         },
     },
     alternates: {
-        canonical: "https://plamenband.ru/news/hymns-of-black-energy",
+        canonical: "https://trueplamen.ru/news/hymns-of-black-energy",
     },
 };
 
