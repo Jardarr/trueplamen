@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Plamen | King ov Life and Death",
     description: "King ov Life and Death. New album of the band Plamen on a bandcamp",
     keywords: ["Black Metal", "Music", "Plamen", "Пламень"],
-    authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
+    authors: [{ name: "jardarr", url: "https://jrdrr.vercel.app/" }],
     applicationName: "Plamen Official",
     openGraph: {
         title: "Plamen | King ov Life and Death",

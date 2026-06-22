@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 		title: `Plamen | ${t("title")}`,
 		description: t("description"),
 		keywords: ["Black Metal", "Music", "Plamen", "Пламень", "Guestbook"],
-		authors: [{ name: "jardarr", url: "https://jardarr-portfolio.vercel.app/" }],
+		authors: [{ name: "jardarr", url: "https://jrdrr.vercel.app/" }],
 		applicationName: "Plamen Official",
 		openGraph: {
 			title: `Plamen | ${t("title")}`,
