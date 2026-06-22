@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 		openGraph: {
 			title: `Plamen | ${t("Release.AnabasisOvSpirit.title")}`,
 			description: t("Release.AnabasisOvSpirit.metaDescription"),
-			url: "https://plamenband.ru",
+			url: "https://trueplamen.ru/samples/anabasis-ov-spirit",
 			siteName: "Plamen Official",
 			images: [
 				{
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 			},
 		},
 		alternates: {
-			canonical: "https://plamenband.ru/samples/anabasis-ov-spirit",
+			canonical: "https://trueplamen.ru/samples/anabasis-ov-spirit",
 		},
 	}
 }

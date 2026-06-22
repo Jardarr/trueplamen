@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 		openGraph: {
 			title: `Plamen | ${t("Release.ToTheDust.title")}`,
 			description: t("Release.ToTheDust.metaDescription"),
-			url: "https://plamenband.ru",
+			url: "https://trueplamen.ru/samples/to-the-dust",
 			siteName: "Plamen Official",
 			images: [
 				{
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 			},
 		},
 		alternates: {
-			canonical: "https://plamenband.ru/samples/to-the-dust",
+			canonical: "https://trueplamen.ru/samples/to-the-dust",
 		},
 	}
 }

@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 		openGraph: {
 			title: `Plamen | ${t("Release.SeedsOvHell.title")}`,
 			description: t("Release.SeedsOvHell.metaDescription"),
-			url: "https://plamenband.ru",
+			url: "https://trueplamen.ru/samples/seeds-ov-hell",
 			siteName: "Plamen Official",
 			images: [
 				{
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 			},
 		},
 		alternates: {
-			canonical: "https://plamenband.ru/samples/seeds-ov-hell",
+			canonical: "https://trueplamen.ru/samples/seeds-ov-hell",
 		},
 	}
 }
