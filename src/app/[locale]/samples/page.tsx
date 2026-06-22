@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Plamen | Samples - Black Metal band from Mordor",
         description: "Plamen | Samples. Official website of the Black Metal band Plamen, created in 2006.",
-        url: "https://plamenband.ru",
+        url: "https://trueplamen.ru/samples",
         siteName: "Plamen Official",
         images: [
             {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
         },
     },
     alternates: {
-        canonical: "https://plamenband.ru",
+        canonical: "https://trueplamen.ru/samples",
     },
 };
 

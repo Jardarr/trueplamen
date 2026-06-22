@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 		openGraph: {
 			title: `Plamen | ${t("title")}`,
 			description: t("acts.act1.description"),
-			url: "https://plamenband.ru",
+			url: "https://trueplamen.ru/about-us",
 			siteName: "Plamen Official",
 			images: [
 				{
@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 			},
 		},
 		alternates: {
-			canonical: "https://plamenband.ru/about-us",
+			canonical: "https://trueplamen.ru/about-us",
 		},
 	}
 }

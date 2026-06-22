@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Vox Ouroboros | Dagaz",
 		description: "The day of the vernal equinox 2025 is the starting point of life Vox Ouroboros - side project of the black metal band PLAMEN.",
-		url: "https://plamenband.ru",
+		url: "https://trueplamen.ru/news/vox-ouroboros-dagaz",
 		siteName: "Plamen Official",
 		images: [
 			{
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: "https://plamenband.ru",
+		canonical: "https://trueplamen.ru/news/vox-ouroboros-dagaz",
 	},
 };
 

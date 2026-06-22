@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Plamen | Hymns of Black Energy",
         description: "Hymns of Black Energy. New album of the band Plamen coming soon",
-        url: "https://plamenband.ru",
+        url: "https://trueplamen.ru/news/hymns-of-black-energy",
         siteName: "Plamen Official",
         images: [
             {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
         },
     },
     alternates: {
-        canonical: "https://plamenband.ru/news/hymns-of-black-energy",
+        canonical: "https://trueplamen.ru/news/hymns-of-black-energy",
     },
 };
 

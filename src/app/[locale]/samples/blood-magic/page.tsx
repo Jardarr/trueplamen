@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 		openGraph: {
 			title: `Plamen | ${t("Release.BloodMagic.title")}`,
 			description: t("Release.BloodMagic.metaDescription"),
-			url: "https://plamenband.ru",
+			url: "https://trueplamen.ru/samples/blood-magic",
 			siteName: "Plamen Official",
 			images: [
 				{
@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 			},
 		},
 		alternates: {
-			canonical: "https://plamenband.ru/samples/blood-magic",
+			canonical: "https://trueplamen.ru/samples/blood-magic",
 		},
 	}
 }

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Vox Ouroboros | Sowilo",
 		description: "The Flaming Sun of Victory… It is born every morning over the endless expanses of the Earth. The second act of Vox Ouroboros is available to listen to in full on bandcamp.",
-		url: "https://plamenband.ru",
+		url: "https://trueplamen.ru/news/vox-ouroboros-sowilo",
 		siteName: "Plamen Official",
 		images: [
 			{
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: "https://plamenband.ru",
+		canonical: "https://trueplamen.ru/news/vox-ouroboros-sowilo",
 	},
 };
 

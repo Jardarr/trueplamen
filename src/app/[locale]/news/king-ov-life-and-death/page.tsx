@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Plamen | King ov Life and Death",
         description: "King ov Life and Death. New album of the band Plamen coming soon",
-        url: "https://plamenband.ru",
+        url: "https://trueplamen.ru/news/king-ov-life-and-death",
         siteName: "Plamen Official",
         images: [
             {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
         },
     },
     alternates: {
-        canonical: "https://plamenband.ru",
+        canonical: "https://trueplamen.ru/news/king-ov-life-and-death",
     },
 };
 
